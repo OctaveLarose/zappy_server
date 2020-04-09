@@ -1,0 +1,95 @@
+\hypertarget{game_2player_2add_8c}{}\section{server/game/player/add.c File Reference}
+\label{game_2player_2add_8c}\index{server/game/player/add.\+c@{server/game/player/add.\+c}}
+{\ttfamily \#include \char`\"{}game/game.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/player.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/log.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{game_2player_2add_8c_a2308c9a4987d8104ce12dca904770485}{init\+\_\+player\+\_\+tile}} (player\+\_\+t $\ast$player, world\+\_\+t $\ast$world, bool random\+\_\+pos, vec2i\+\_\+t $\ast$pos)
+\begin{DoxyCompactList}\small\item\em Give a tile to the given player, could be random or via a position. \end{DoxyCompactList}\item 
+player\+\_\+t $\ast$ \mbox{\hyperlink{game_2player_2add_8c_af44de6c291a70334fb7a2a05f2bd2f29}{create\+\_\+player}} (player\+\_\+info\+\_\+t info, world\+\_\+t $\ast$world, double f)
+\begin{DoxyCompactList}\small\item\em Allocate and fill a player structure with given info. \end{DoxyCompactList}\item 
+player\+\_\+t $\ast$ \mbox{\hyperlink{game_2player_2add_8c_acc60a122f452c87092cb50bf4b03ca96}{make\+\_\+new\+\_\+player}} (game\+\_\+t $\ast$game, player\+\_\+info\+\_\+t info)
+\begin{DoxyCompactList}\small\item\em Allocate, fill and add a player to the world. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{game_2player_2add_8c_af44de6c291a70334fb7a2a05f2bd2f29}\label{game_2player_2add_8c_af44de6c291a70334fb7a2a05f2bd2f29}} 
+\index{game/player/add.\+c@{game/player/add.\+c}!create\+\_\+player@{create\+\_\+player}}
+\index{create\+\_\+player@{create\+\_\+player}!game/player/add.\+c@{game/player/add.\+c}}
+\subsubsection{\texorpdfstring{create\+\_\+player()}{create\_player()}}
+{\footnotesize\ttfamily player\+\_\+t$\ast$ create\+\_\+player (\begin{DoxyParamCaption}\item[{player\+\_\+info\+\_\+t}]{info,  }\item[{world\+\_\+t $\ast$}]{world,  }\item[{double}]{f }\end{DoxyParamCaption})}
+
+
+
+Allocate and fill a player structure with given info. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em info} & \\
+\hline
+{\em world} & \\
+\hline
+{\em f} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to allocated player 
+\end{DoxyReturn}
+
+
+Definition at line 37 of file add.\+c.
+
+\mbox{\Hypertarget{game_2player_2add_8c_a2308c9a4987d8104ce12dca904770485}\label{game_2player_2add_8c_a2308c9a4987d8104ce12dca904770485}} 
+\index{game/player/add.\+c@{game/player/add.\+c}!init\+\_\+player\+\_\+tile@{init\+\_\+player\+\_\+tile}}
+\index{init\+\_\+player\+\_\+tile@{init\+\_\+player\+\_\+tile}!game/player/add.\+c@{game/player/add.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+player\+\_\+tile()}{init\_player\_tile()}}
+{\footnotesize\ttfamily bool init\+\_\+player\+\_\+tile (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player,  }\item[{world\+\_\+t $\ast$}]{world,  }\item[{bool}]{random\+\_\+pos,  }\item[{vec2i\+\_\+t $\ast$}]{pos }\end{DoxyParamCaption})}
+
+
+
+Give a tile to the given player, could be random or via a position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em world} & \\
+\hline
+{\em random\+\_\+pos} & \\
+\hline
+{\em pos} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false, depending on success 
+\end{DoxyReturn}
+
+
+Definition at line 18 of file add.\+c.
+
+\mbox{\Hypertarget{game_2player_2add_8c_acc60a122f452c87092cb50bf4b03ca96}\label{game_2player_2add_8c_acc60a122f452c87092cb50bf4b03ca96}} 
+\index{game/player/add.\+c@{game/player/add.\+c}!make\+\_\+new\+\_\+player@{make\+\_\+new\+\_\+player}}
+\index{make\+\_\+new\+\_\+player@{make\+\_\+new\+\_\+player}!game/player/add.\+c@{game/player/add.\+c}}
+\subsubsection{\texorpdfstring{make\+\_\+new\+\_\+player()}{make\_new\_player()}}
+{\footnotesize\ttfamily player\+\_\+t$\ast$ make\+\_\+new\+\_\+player (\begin{DoxyParamCaption}\item[{game\+\_\+t $\ast$}]{game,  }\item[{player\+\_\+info\+\_\+t}]{info }\end{DoxyParamCaption})}
+
+
+
+Allocate, fill and add a player to the world. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & \\
+\hline
+{\em info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the player 
+\end{DoxyReturn}
+
+
+Definition at line 62 of file add.\+c.
+

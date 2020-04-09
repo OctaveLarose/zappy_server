@@ -1,0 +1,148 @@
+\hypertarget{incantation_8c}{}\section{server/game/commands/incantation.c File Reference}
+\label{incantation_8c}\index{server/game/commands/incantation.\+c@{server/game/commands/incantation.\+c}}
+{\ttfamily \#include \char`\"{}game/log.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/map.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{incantation_8c_a66b7a8b8201bd90ff229d89e1df43346}{check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met}} (const ritual\+\_\+data\+\_\+t $\ast$req, player\+\_\+t $\ast$player)
+\begin{DoxyCompactList}\small\item\em Check if the given player meet the given requirements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{incantation_8c_a65f2166e111100d72f55aa6163dd4dba}{upgrade\+\_\+ritual\+\_\+players}} (player\+\_\+t $\ast$tile\+\_\+players, int last\+\_\+lvl)
+\begin{DoxyCompactList}\small\item\em Run over all players to increase their level after a successful incantation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{incantation_8c_a07a9d6c0387fe827691a7ed4fe86df83}{send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players}} (player\+\_\+t $\ast$tile\+\_\+players, int cur\+\_\+level)
+\begin{DoxyCompactList}\small\item\em Send ko message to players who failed an incantation. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{incantation_8c_a8285c9a7fefacb7643d733e04233e25d}{cmd\+\_\+incantation}} (char $\ast$cmd, player\+\_\+t $\ast$player, game\+\_\+t $\ast$game)
+\begin{DoxyCompactList}\small\item\em Allow player to incant. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const ritual\+\_\+data\+\_\+t \mbox{\hyperlink{incantation_8c_aa24b2d2f367323ec2fdbf9f385f113d8}{ritual\+\_\+data}} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{incantation_8c_a66b7a8b8201bd90ff229d89e1df43346}\label{incantation_8c_a66b7a8b8201bd90ff229d89e1df43346}} 
+\index{incantation.\+c@{incantation.\+c}!check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met@{check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met}}
+\index{check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met@{check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met}!incantation.\+c@{incantation.\+c}}
+\subsubsection{\texorpdfstring{check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met()}{check\_if\_ritual\_req\_met()}}
+{\footnotesize\ttfamily bool check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met (\begin{DoxyParamCaption}\item[{const ritual\+\_\+data\+\_\+t $\ast$}]{req,  }\item[{player\+\_\+t $\ast$}]{player }\end{DoxyParamCaption})}
+
+
+
+Check if the given player meet the given requirements. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em req} & \\
+\hline
+{\em player} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file incantation.\+c.
+
+\mbox{\Hypertarget{incantation_8c_a8285c9a7fefacb7643d733e04233e25d}\label{incantation_8c_a8285c9a7fefacb7643d733e04233e25d}} 
+\index{incantation.\+c@{incantation.\+c}!cmd\+\_\+incantation@{cmd\+\_\+incantation}}
+\index{cmd\+\_\+incantation@{cmd\+\_\+incantation}!incantation.\+c@{incantation.\+c}}
+\subsubsection{\texorpdfstring{cmd\+\_\+incantation()}{cmd\_incantation()}}
+{\footnotesize\ttfamily int cmd\+\_\+incantation (\begin{DoxyParamCaption}\item[{char $\ast$}]{cmd,  }\item[{player\+\_\+t $\ast$}]{player,  }\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Allow player to incant. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+{\em player} & \\
+\hline
+{\em game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file incantation.\+c.
+
+\mbox{\Hypertarget{incantation_8c_a07a9d6c0387fe827691a7ed4fe86df83}\label{incantation_8c_a07a9d6c0387fe827691a7ed4fe86df83}} 
+\index{incantation.\+c@{incantation.\+c}!send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players@{send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players}}
+\index{send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players@{send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players}!incantation.\+c@{incantation.\+c}}
+\subsubsection{\texorpdfstring{send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players()}{send\_ko\_to\_ritual\_players()}}
+{\footnotesize\ttfamily void send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{tile\+\_\+players,  }\item[{int}]{cur\+\_\+level }\end{DoxyParamCaption})}
+
+
+
+Send ko message to players who failed an incantation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tile\+\_\+players} & \\
+\hline
+{\em cur\+\_\+level} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 71 of file incantation.\+c.
+
+\mbox{\Hypertarget{incantation_8c_a65f2166e111100d72f55aa6163dd4dba}\label{incantation_8c_a65f2166e111100d72f55aa6163dd4dba}} 
+\index{incantation.\+c@{incantation.\+c}!upgrade\+\_\+ritual\+\_\+players@{upgrade\+\_\+ritual\+\_\+players}}
+\index{upgrade\+\_\+ritual\+\_\+players@{upgrade\+\_\+ritual\+\_\+players}!incantation.\+c@{incantation.\+c}}
+\subsubsection{\texorpdfstring{upgrade\+\_\+ritual\+\_\+players()}{upgrade\_ritual\_players()}}
+{\footnotesize\ttfamily void upgrade\+\_\+ritual\+\_\+players (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{tile\+\_\+players,  }\item[{int}]{last\+\_\+lvl }\end{DoxyParamCaption})}
+
+
+
+Run over all players to increase their level after a successful incantation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tile\+\_\+players} & \\
+\hline
+{\em last\+\_\+lvl} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file incantation.\+c.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{incantation_8c_aa24b2d2f367323ec2fdbf9f385f113d8}\label{incantation_8c_aa24b2d2f367323ec2fdbf9f385f113d8}} 
+\index{incantation.\+c@{incantation.\+c}!ritual\+\_\+data@{ritual\+\_\+data}}
+\index{ritual\+\_\+data@{ritual\+\_\+data}!incantation.\+c@{incantation.\+c}}
+\subsubsection{\texorpdfstring{ritual\+\_\+data}{ritual\_data}}
+{\footnotesize\ttfamily const ritual\+\_\+data\+\_\+t ritual\+\_\+data\mbox{[}$\,$\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{
+        \{.level = 1, .nb\_players = 1, .inv = (inventory\_t) \{0, 1, 0, 0, 0, 0,
+                                                            0\}\},
+        \{.level = 2, .nb\_players = 2, .inv = (inventory\_t) \{0, 1, 1, 1, 0, 0,
+                                                            0\}\},
+        \{.level = 3, .nb\_players = 2, .inv = (inventory\_t) \{0, 2, 0, 1, 0, 2,
+                                                            0\}\},
+        \{.level = 4, .nb\_players = 4, .inv = (inventory\_t) \{0, 1, 1, 2, 0, 1,
+                                                            0\}\},
+        \{.level = 5, .nb\_players = 4, .inv = (inventory\_t) \{0, 1, 2, 1, 3, 0,
+                                                            0\}\},
+        \{.level = 6, .nb\_players = 6, .inv = (inventory\_t) \{0, 1, 2, 3, 0, 1,
+                                                            0\}\},
+        \{.level = 7, .nb\_players = 6, .inv = (inventory\_t) \{0, 2, 2, 2, 2, 2,
+                                                            1\}\}\}
+\end{DoxyCode}
+
+
+Definition at line 13 of file incantation.\+c.
+

@@ -1,0 +1,128 @@
+\hypertarget{handle__client_8c}{}\section{server/network/rfds/handle\+\_\+client.c File Reference}
+\label{handle__client_8c}\index{server/network/rfds/handle\+\_\+client.\+c@{server/network/rfds/handle\+\_\+client.\+c}}
+{\ttfamily \#include \char`\"{}game/log.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{handle__client_8c_a311bbfe0f3bea21b81c2114a15fedaf4}{handle\+\_\+client\+\_\+ai}} (client\+\_\+ai\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}})
+\begin{DoxyCompactList}\small\item\em Check if their command related to AI and execute them if the client is ready. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{handle__client_8c_a0ebd474a0bda7658077b5a93786402a1}{handle\+\_\+client\+\_\+graphic}} (client\+\_\+graphic\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}})
+\item 
+bool \mbox{\hyperlink{handle__client_8c_a7cbc72e4372b40c15841aa96ab107ab5}{give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown}} (client\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}}, char $\ast$team\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Check if client is able to get a player, otherwise it will disconnect it. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{handle__client_8c_a5c5e20a2064bc3fb982213be5de986e0}{handle\+\_\+client\+\_\+unknown}} (client\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}})
+\begin{DoxyCompactList}\small\item\em Determine if the client is a graphic client and update client structure to match it. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{handle__client_8c_a8c0dee249e8d9b404e1c58b63f5cb1e0}{handle\+\_\+client}} (client\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}})
+\begin{DoxyCompactList}\small\item\em Call the specific handle function according to the client type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{handle__client_8c_a7cbc72e4372b40c15841aa96ab107ab5}\label{handle__client_8c_a7cbc72e4372b40c15841aa96ab107ab5}} 
+\index{handle\+\_\+client.\+c@{handle\+\_\+client.\+c}!give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown@{give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown}}
+\index{give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown@{give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown}!handle\+\_\+client.\+c@{handle\+\_\+client.\+c}}
+\subsubsection{\texorpdfstring{give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown()}{give\_player\_to\_client\_unknown()}}
+{\footnotesize\ttfamily bool give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy,  }\item[{char $\ast$}]{team\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+Check if client is able to get a player, otherwise it will disconnect it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em zappy} & \\
+\hline
+{\em team\+\_\+name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true on success, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file handle\+\_\+client.\+c.
+
+\mbox{\Hypertarget{handle__client_8c_a8c0dee249e8d9b404e1c58b63f5cb1e0}\label{handle__client_8c_a8c0dee249e8d9b404e1c58b63f5cb1e0}} 
+\index{handle\+\_\+client.\+c@{handle\+\_\+client.\+c}!handle\+\_\+client@{handle\+\_\+client}}
+\index{handle\+\_\+client@{handle\+\_\+client}!handle\+\_\+client.\+c@{handle\+\_\+client.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+client()}{handle\_client()}}
+{\footnotesize\ttfamily bool handle\+\_\+client (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy }\end{DoxyParamCaption})}
+
+
+
+Call the specific handle function according to the client type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em zappy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 93 of file handle\+\_\+client.\+c.
+
+\mbox{\Hypertarget{handle__client_8c_a311bbfe0f3bea21b81c2114a15fedaf4}\label{handle__client_8c_a311bbfe0f3bea21b81c2114a15fedaf4}} 
+\index{handle\+\_\+client.\+c@{handle\+\_\+client.\+c}!handle\+\_\+client\+\_\+ai@{handle\+\_\+client\+\_\+ai}}
+\index{handle\+\_\+client\+\_\+ai@{handle\+\_\+client\+\_\+ai}!handle\+\_\+client.\+c@{handle\+\_\+client.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+client\+\_\+ai()}{handle\_client\_ai()}}
+{\footnotesize\ttfamily bool handle\+\_\+client\+\_\+ai (\begin{DoxyParamCaption}\item[{client\+\_\+ai\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy }\end{DoxyParamCaption})}
+
+
+
+Check if their command related to AI and execute them if the client is ready. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em zappy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 16 of file handle\+\_\+client.\+c.
+
+\mbox{\Hypertarget{handle__client_8c_a0ebd474a0bda7658077b5a93786402a1}\label{handle__client_8c_a0ebd474a0bda7658077b5a93786402a1}} 
+\index{handle\+\_\+client.\+c@{handle\+\_\+client.\+c}!handle\+\_\+client\+\_\+graphic@{handle\+\_\+client\+\_\+graphic}}
+\index{handle\+\_\+client\+\_\+graphic@{handle\+\_\+client\+\_\+graphic}!handle\+\_\+client.\+c@{handle\+\_\+client.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+client\+\_\+graphic()}{handle\_client\_graphic()}}
+{\footnotesize\ttfamily bool handle\+\_\+client\+\_\+graphic (\begin{DoxyParamCaption}\item[{client\+\_\+graphic\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy }\end{DoxyParamCaption})}
+
+
+
+Definition at line 26 of file handle\+\_\+client.\+c.
+
+\mbox{\Hypertarget{handle__client_8c_a5c5e20a2064bc3fb982213be5de986e0}\label{handle__client_8c_a5c5e20a2064bc3fb982213be5de986e0}} 
+\index{handle\+\_\+client.\+c@{handle\+\_\+client.\+c}!handle\+\_\+client\+\_\+unknown@{handle\+\_\+client\+\_\+unknown}}
+\index{handle\+\_\+client\+\_\+unknown@{handle\+\_\+client\+\_\+unknown}!handle\+\_\+client.\+c@{handle\+\_\+client.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+client\+\_\+unknown()}{handle\_client\_unknown()}}
+{\footnotesize\ttfamily bool handle\+\_\+client\+\_\+unknown (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy }\end{DoxyParamCaption})}
+
+
+
+Determine if the client is a graphic client and update client structure to match it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em zappy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 70 of file handle\+\_\+client.\+c.
+

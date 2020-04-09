@@ -1,0 +1,56 @@
+\hypertarget{set__wfds_8c}{}\section{server/network/wfds/set\+\_\+wfds.c File Reference}
+\label{set__wfds_8c}\index{server/network/wfds/set\+\_\+wfds.\+c@{server/network/wfds/set\+\_\+wfds.\+c}}
+{\ttfamily \#include \char`\"{}network/server.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{set__wfds_8c_a749d88e188b7ae87080d8243c0b6427d}{if\+\_\+set\+\_\+wfds}} (client\+\_\+t $\ast$client, fd\+\_\+set $\ast$perm\+\_\+wfds, char $\ast$game\+\_\+log)
+\item 
+void \mbox{\hyperlink{set__wfds_8c_a8d21aaa8d94b8a26585f5a1dded2ac63}{if\+\_\+not\+\_\+set\+\_\+wfds}} (client\+\_\+t $\ast$client, fd\+\_\+set $\ast$perm\+\_\+wfds, char $\ast$game\+\_\+log)
+\item 
+void \mbox{\hyperlink{set__wfds_8c_acfbbd25c3edb1eb96d3fe7fa9f8f21cc}{set\+\_\+wfds}} (server\+\_\+t $\ast$server, char $\ast$game\+\_\+log)
+\begin{DoxyCompactList}\small\item\em Allow clients to get data from server by adding them in the write file descriptor set. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{set__wfds_8c_a8d21aaa8d94b8a26585f5a1dded2ac63}\label{set__wfds_8c_a8d21aaa8d94b8a26585f5a1dded2ac63}} 
+\index{set\+\_\+wfds.\+c@{set\+\_\+wfds.\+c}!if\+\_\+not\+\_\+set\+\_\+wfds@{if\+\_\+not\+\_\+set\+\_\+wfds}}
+\index{if\+\_\+not\+\_\+set\+\_\+wfds@{if\+\_\+not\+\_\+set\+\_\+wfds}!set\+\_\+wfds.\+c@{set\+\_\+wfds.\+c}}
+\subsubsection{\texorpdfstring{if\+\_\+not\+\_\+set\+\_\+wfds()}{if\_not\_set\_wfds()}}
+{\footnotesize\ttfamily void if\+\_\+not\+\_\+set\+\_\+wfds (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$}]{client,  }\item[{fd\+\_\+set $\ast$}]{perm\+\_\+wfds,  }\item[{char $\ast$}]{game\+\_\+log }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file set\+\_\+wfds.\+c.
+
+\mbox{\Hypertarget{set__wfds_8c_a749d88e188b7ae87080d8243c0b6427d}\label{set__wfds_8c_a749d88e188b7ae87080d8243c0b6427d}} 
+\index{set\+\_\+wfds.\+c@{set\+\_\+wfds.\+c}!if\+\_\+set\+\_\+wfds@{if\+\_\+set\+\_\+wfds}}
+\index{if\+\_\+set\+\_\+wfds@{if\+\_\+set\+\_\+wfds}!set\+\_\+wfds.\+c@{set\+\_\+wfds.\+c}}
+\subsubsection{\texorpdfstring{if\+\_\+set\+\_\+wfds()}{if\_set\_wfds()}}
+{\footnotesize\ttfamily void if\+\_\+set\+\_\+wfds (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$}]{client,  }\item[{fd\+\_\+set $\ast$}]{perm\+\_\+wfds,  }\item[{char $\ast$}]{game\+\_\+log }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file set\+\_\+wfds.\+c.
+
+\mbox{\Hypertarget{set__wfds_8c_acfbbd25c3edb1eb96d3fe7fa9f8f21cc}\label{set__wfds_8c_acfbbd25c3edb1eb96d3fe7fa9f8f21cc}} 
+\index{set\+\_\+wfds.\+c@{set\+\_\+wfds.\+c}!set\+\_\+wfds@{set\+\_\+wfds}}
+\index{set\+\_\+wfds@{set\+\_\+wfds}!set\+\_\+wfds.\+c@{set\+\_\+wfds.\+c}}
+\subsubsection{\texorpdfstring{set\+\_\+wfds()}{set\_wfds()}}
+{\footnotesize\ttfamily void set\+\_\+wfds (\begin{DoxyParamCaption}\item[{server\+\_\+t $\ast$}]{server,  }\item[{char $\ast$}]{game\+\_\+log }\end{DoxyParamCaption})}
+
+
+
+Allow clients to get data from server by adding them in the write file descriptor set. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em server} & \\
+\hline
+{\em game\+\_\+log} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 46 of file set\+\_\+wfds.\+c.
+

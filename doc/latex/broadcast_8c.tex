@@ -1,0 +1,127 @@
+\hypertarget{broadcast_8c}{}\section{server/game/commands/broadcast.c File Reference}
+\label{broadcast_8c}\index{server/game/commands/broadcast.\+c@{server/game/commands/broadcast.\+c}}
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{broadcast_8c_af85cf5b0660a0d1009dff9e6c9da8fe5}{convert\+\_\+angle\+\_\+to\+\_\+num}} (double angle)
+\begin{DoxyCompactList}\small\item\em Convert an angle in degree to the possible tile output. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{broadcast_8c_a3c32c5d2d41a30d61ae8250d9d68e867}{get\+\_\+angle}} (vec2i\+\_\+t target, vec2i\+\_\+t origin)
+\begin{DoxyCompactList}\small\item\em Get an angle from two vectors. \end{DoxyCompactList}\item 
+vec2i\+\_\+t \mbox{\hyperlink{broadcast_8c_a444236d1a2d58207d3eb6357eca5217a}{get\+\_\+origin}} (dir\+\_\+t dir, vec2i\+\_\+t $\ast$src)
+\begin{DoxyCompactList}\small\item\em Create a vector from a position and a direction. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{broadcast_8c_a1e20348bb1ee115e085339a0d03379c5}{get\+\_\+traj}} (player\+\_\+t $\ast$source\+\_\+player, player\+\_\+t $\ast$dest\+\_\+player, world\+\_\+t $\ast$world)
+\item 
+int \mbox{\hyperlink{broadcast_8c_a45d437b78f9da9caa746a129901f0a3f}{cmd\+\_\+broadcast}} (char $\ast$cmd, player\+\_\+t $\ast$player, game\+\_\+t $\ast$game)
+\begin{DoxyCompactList}\small\item\em Send a message to all player, with the direction the message is coming from. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{broadcast_8c_a45d437b78f9da9caa746a129901f0a3f}\label{broadcast_8c_a45d437b78f9da9caa746a129901f0a3f}} 
+\index{broadcast.\+c@{broadcast.\+c}!cmd\+\_\+broadcast@{cmd\+\_\+broadcast}}
+\index{cmd\+\_\+broadcast@{cmd\+\_\+broadcast}!broadcast.\+c@{broadcast.\+c}}
+\subsubsection{\texorpdfstring{cmd\+\_\+broadcast()}{cmd\_broadcast()}}
+{\footnotesize\ttfamily int cmd\+\_\+broadcast (\begin{DoxyParamCaption}\item[{char $\ast$}]{cmd,  }\item[{player\+\_\+t $\ast$}]{player,  }\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Send a message to all player, with the direction the message is coming from. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+{\em player} & \\
+\hline
+{\em game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status of execution 
+\end{DoxyReturn}
+
+
+Definition at line 92 of file broadcast.\+c.
+
+\mbox{\Hypertarget{broadcast_8c_af85cf5b0660a0d1009dff9e6c9da8fe5}\label{broadcast_8c_af85cf5b0660a0d1009dff9e6c9da8fe5}} 
+\index{broadcast.\+c@{broadcast.\+c}!convert\+\_\+angle\+\_\+to\+\_\+num@{convert\+\_\+angle\+\_\+to\+\_\+num}}
+\index{convert\+\_\+angle\+\_\+to\+\_\+num@{convert\+\_\+angle\+\_\+to\+\_\+num}!broadcast.\+c@{broadcast.\+c}}
+\subsubsection{\texorpdfstring{convert\+\_\+angle\+\_\+to\+\_\+num()}{convert\_angle\_to\_num()}}
+{\footnotesize\ttfamily int convert\+\_\+angle\+\_\+to\+\_\+num (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})}
+
+
+
+Convert an angle in degree to the possible tile output. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 to 8 
+\end{DoxyReturn}
+
+
+Definition at line 16 of file broadcast.\+c.
+
+\mbox{\Hypertarget{broadcast_8c_a3c32c5d2d41a30d61ae8250d9d68e867}\label{broadcast_8c_a3c32c5d2d41a30d61ae8250d9d68e867}} 
+\index{broadcast.\+c@{broadcast.\+c}!get\+\_\+angle@{get\+\_\+angle}}
+\index{get\+\_\+angle@{get\+\_\+angle}!broadcast.\+c@{broadcast.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+angle()}{get\_angle()}}
+{\footnotesize\ttfamily double get\+\_\+angle (\begin{DoxyParamCaption}\item[{vec2i\+\_\+t}]{target,  }\item[{vec2i\+\_\+t}]{origin }\end{DoxyParamCaption})}
+
+
+
+Get an angle from two vectors. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target} & \\
+\hline
+{\em origin} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+actual angle in degree 
+\end{DoxyReturn}
+
+
+Definition at line 41 of file broadcast.\+c.
+
+\mbox{\Hypertarget{broadcast_8c_a444236d1a2d58207d3eb6357eca5217a}\label{broadcast_8c_a444236d1a2d58207d3eb6357eca5217a}} 
+\index{broadcast.\+c@{broadcast.\+c}!get\+\_\+origin@{get\+\_\+origin}}
+\index{get\+\_\+origin@{get\+\_\+origin}!broadcast.\+c@{broadcast.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+origin()}{get\_origin()}}
+{\footnotesize\ttfamily vec2i\+\_\+t get\+\_\+origin (\begin{DoxyParamCaption}\item[{dir\+\_\+t}]{dir,  }\item[{vec2i\+\_\+t $\ast$}]{src }\end{DoxyParamCaption})}
+
+
+
+Create a vector from a position and a direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & \\
+\hline
+{\em src} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the vector 
+\end{DoxyReturn}
+
+
+Definition at line 56 of file broadcast.\+c.
+
+\mbox{\Hypertarget{broadcast_8c_a1e20348bb1ee115e085339a0d03379c5}\label{broadcast_8c_a1e20348bb1ee115e085339a0d03379c5}} 
+\index{broadcast.\+c@{broadcast.\+c}!get\+\_\+traj@{get\+\_\+traj}}
+\index{get\+\_\+traj@{get\+\_\+traj}!broadcast.\+c@{broadcast.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+traj()}{get\_traj()}}
+{\footnotesize\ttfamily char get\+\_\+traj (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{source\+\_\+player,  }\item[{player\+\_\+t $\ast$}]{dest\+\_\+player,  }\item[{world\+\_\+t $\ast$}]{world }\end{DoxyParamCaption})}
+
+
+
+Definition at line 72 of file broadcast.\+c.
+

@@ -1,0 +1,100 @@
+\hypertarget{get__args_8c}{}\section{server/get\+\_\+args/get\+\_\+args.c File Reference}
+\label{get__args_8c}\index{server/get\+\_\+args/get\+\_\+args.\+c@{server/get\+\_\+args/get\+\_\+args.\+c}}
+{\ttfamily \#include \char`\"{}arg\+\_\+holder.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{get__args_8c_a7cfdaad3991b84a459ef6fc031f60f91}{free\+\_\+arg\+\_\+holder}} (arg\+\_\+holder\+\_\+t $\ast$arg\+\_\+hldr)
+\item 
+int \mbox{\hyperlink{get__args_8c_aa76d3bb80c910db96f3b0715d7b82916}{check\+\_\+arg\+\_\+holder}} (arg\+\_\+holder\+\_\+t $\ast$arg\+\_\+hldr)
+\begin{DoxyCompactList}\small\item\em Check if all flags are filled. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{get__args_8c_a94c001c2093c8e0e9d75f1e9b40b73af}{get\+\_\+args\+\_\+loop}} (int ac, char $\ast$$\ast$av, arg\+\_\+holder\+\_\+t $\ast$arg\+\_\+hldr)
+\begin{DoxyCompactList}\small\item\em Loop through all cli args and redirect the value to the corresponding function. \end{DoxyCompactList}\item 
+arg\+\_\+holder\+\_\+t $\ast$ \mbox{\hyperlink{get__args_8c_ac5badbd0db9af0a3b75d66b40e86801c}{get\+\_\+args}} (int ac, char $\ast$$\ast$av)
+\begin{DoxyCompactList}\small\item\em Read args from the command line. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{get__args_8c_aa76d3bb80c910db96f3b0715d7b82916}\label{get__args_8c_aa76d3bb80c910db96f3b0715d7b82916}} 
+\index{get\+\_\+args.\+c@{get\+\_\+args.\+c}!check\+\_\+arg\+\_\+holder@{check\+\_\+arg\+\_\+holder}}
+\index{check\+\_\+arg\+\_\+holder@{check\+\_\+arg\+\_\+holder}!get\+\_\+args.\+c@{get\+\_\+args.\+c}}
+\subsubsection{\texorpdfstring{check\+\_\+arg\+\_\+holder()}{check\_arg\_holder()}}
+{\footnotesize\ttfamily int check\+\_\+arg\+\_\+holder (\begin{DoxyParamCaption}\item[{arg\+\_\+holder\+\_\+t $\ast$}]{arg\+\_\+hldr }\end{DoxyParamCaption})}
+
+
+
+Check if all flags are filled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg\+\_\+hldr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a status 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file get\+\_\+args.\+c.
+
+\mbox{\Hypertarget{get__args_8c_a7cfdaad3991b84a459ef6fc031f60f91}\label{get__args_8c_a7cfdaad3991b84a459ef6fc031f60f91}} 
+\index{get\+\_\+args.\+c@{get\+\_\+args.\+c}!free\+\_\+arg\+\_\+holder@{free\+\_\+arg\+\_\+holder}}
+\index{free\+\_\+arg\+\_\+holder@{free\+\_\+arg\+\_\+holder}!get\+\_\+args.\+c@{get\+\_\+args.\+c}}
+\subsubsection{\texorpdfstring{free\+\_\+arg\+\_\+holder()}{free\_arg\_holder()}}
+{\footnotesize\ttfamily void free\+\_\+arg\+\_\+holder (\begin{DoxyParamCaption}\item[{arg\+\_\+holder\+\_\+t $\ast$}]{arg\+\_\+hldr }\end{DoxyParamCaption})}
+
+
+
+Definition at line 11 of file get\+\_\+args.\+c.
+
+\mbox{\Hypertarget{get__args_8c_ac5badbd0db9af0a3b75d66b40e86801c}\label{get__args_8c_ac5badbd0db9af0a3b75d66b40e86801c}} 
+\index{get\+\_\+args.\+c@{get\+\_\+args.\+c}!get\+\_\+args@{get\+\_\+args}}
+\index{get\+\_\+args@{get\+\_\+args}!get\+\_\+args.\+c@{get\+\_\+args.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+args()}{get\_args()}}
+{\footnotesize\ttfamily arg\+\_\+holder\+\_\+t$\ast$ get\+\_\+args (\begin{DoxyParamCaption}\item[{int}]{ac,  }\item[{char $\ast$$\ast$}]{av }\end{DoxyParamCaption})}
+
+
+
+Read args from the command line. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ac} & \\
+\hline
+{\em av} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 70 of file get\+\_\+args.\+c.
+
+\mbox{\Hypertarget{get__args_8c_a94c001c2093c8e0e9d75f1e9b40b73af}\label{get__args_8c_a94c001c2093c8e0e9d75f1e9b40b73af}} 
+\index{get\+\_\+args.\+c@{get\+\_\+args.\+c}!get\+\_\+args\+\_\+loop@{get\+\_\+args\+\_\+loop}}
+\index{get\+\_\+args\+\_\+loop@{get\+\_\+args\+\_\+loop}!get\+\_\+args.\+c@{get\+\_\+args.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+args\+\_\+loop()}{get\_args\_loop()}}
+{\footnotesize\ttfamily int get\+\_\+args\+\_\+loop (\begin{DoxyParamCaption}\item[{int}]{ac,  }\item[{char $\ast$$\ast$}]{av,  }\item[{arg\+\_\+holder\+\_\+t $\ast$}]{arg\+\_\+hldr }\end{DoxyParamCaption})}
+
+
+
+Loop through all cli args and redirect the value to the corresponding function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ac} & \\
+\hline
+{\em av} & \\
+\hline
+{\em arg\+\_\+hldr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 43 of file get\+\_\+args.\+c.
+

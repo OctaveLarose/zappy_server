@@ -1,0 +1,13 @@
+cmake-build-debug/
+.idea/
+zappy_ai
+zappy_server
+unit_tests
+
+*.o
+*~
+vgcore.*
+*.gcda
+*.gcno
+*.pyc
+*.odt

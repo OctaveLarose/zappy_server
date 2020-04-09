@@ -1,0 +1,79 @@
+\hypertarget{execute__player__commands_8c}{}\section{server/game/update/execute\+\_\+player\+\_\+commands.c File Reference}
+\label{execute__player__commands_8c}\index{server/game/update/execute\+\_\+player\+\_\+commands.\+c@{server/game/update/execute\+\_\+player\+\_\+commands.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/game.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{execute__player__commands_8c_a1a1d5dcf2dcc5f0bf20ff332ff793938}{strcmp\+\_\+until\+\_\+space}} (char $\ast$s1, char $\ast$s2)
+\begin{DoxyCompactList}\small\item\em A custom strcmp that that stop at the next space it find. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{execute__player__commands_8c_a1dcb40d826395079481717d69291447f}{execute\+\_\+player\+\_\+command}} (char $\ast$cmd, player\+\_\+t $\ast$player, game\+\_\+t $\ast$game)
+\begin{DoxyCompactList}\small\item\em Apply commands to the player. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{execute__player__commands_8c_a0c0e495a1d8dd0b8c70f5f32464e5449}{fill\+\_\+response\+\_\+to\+\_\+client}} (c\+\_\+buffer\+\_\+t $\ast$buffer\+\_\+response, int val)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{execute__player__commands_8c_a1dcb40d826395079481717d69291447f}\label{execute__player__commands_8c_a1dcb40d826395079481717d69291447f}} 
+\index{execute\+\_\+player\+\_\+commands.\+c@{execute\+\_\+player\+\_\+commands.\+c}!execute\+\_\+player\+\_\+command@{execute\+\_\+player\+\_\+command}}
+\index{execute\+\_\+player\+\_\+command@{execute\+\_\+player\+\_\+command}!execute\+\_\+player\+\_\+commands.\+c@{execute\+\_\+player\+\_\+commands.\+c}}
+\subsubsection{\texorpdfstring{execute\+\_\+player\+\_\+command()}{execute\_player\_command()}}
+{\footnotesize\ttfamily int execute\+\_\+player\+\_\+command (\begin{DoxyParamCaption}\item[{char $\ast$}]{cmd,  }\item[{player\+\_\+t $\ast$}]{player,  }\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Apply commands to the player. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+{\em player} & \\
+\hline
+{\em game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 38 of file execute\+\_\+player\+\_\+commands.\+c.
+
+\mbox{\Hypertarget{execute__player__commands_8c_a0c0e495a1d8dd0b8c70f5f32464e5449}\label{execute__player__commands_8c_a0c0e495a1d8dd0b8c70f5f32464e5449}} 
+\index{execute\+\_\+player\+\_\+commands.\+c@{execute\+\_\+player\+\_\+commands.\+c}!fill\+\_\+response\+\_\+to\+\_\+client@{fill\+\_\+response\+\_\+to\+\_\+client}}
+\index{fill\+\_\+response\+\_\+to\+\_\+client@{fill\+\_\+response\+\_\+to\+\_\+client}!execute\+\_\+player\+\_\+commands.\+c@{execute\+\_\+player\+\_\+commands.\+c}}
+\subsubsection{\texorpdfstring{fill\+\_\+response\+\_\+to\+\_\+client()}{fill\_response\_to\_client()}}
+{\footnotesize\ttfamily bool fill\+\_\+response\+\_\+to\+\_\+client (\begin{DoxyParamCaption}\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buffer\+\_\+response,  }\item[{int}]{val }\end{DoxyParamCaption})}
+
+
+
+Definition at line 53 of file execute\+\_\+player\+\_\+commands.\+c.
+
+\mbox{\Hypertarget{execute__player__commands_8c_a1a1d5dcf2dcc5f0bf20ff332ff793938}\label{execute__player__commands_8c_a1a1d5dcf2dcc5f0bf20ff332ff793938}} 
+\index{execute\+\_\+player\+\_\+commands.\+c@{execute\+\_\+player\+\_\+commands.\+c}!strcmp\+\_\+until\+\_\+space@{strcmp\+\_\+until\+\_\+space}}
+\index{strcmp\+\_\+until\+\_\+space@{strcmp\+\_\+until\+\_\+space}!execute\+\_\+player\+\_\+commands.\+c@{execute\+\_\+player\+\_\+commands.\+c}}
+\subsubsection{\texorpdfstring{strcmp\+\_\+until\+\_\+space()}{strcmp\_until\_space()}}
+{\footnotesize\ttfamily int strcmp\+\_\+until\+\_\+space (\begin{DoxyParamCaption}\item[{char $\ast$}]{s1,  }\item[{char $\ast$}]{s2 }\end{DoxyParamCaption})}
+
+
+
+A custom strcmp that that stop at the next space it find. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s1} & \\
+\hline
+{\em s2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 18 of file execute\+\_\+player\+\_\+commands.\+c.
+

@@ -1,0 +1,62 @@
+\hypertarget{link__tiles_8c}{}\section{server/init/game/link\+\_\+tiles.c File Reference}
+\label{link__tiles_8c}\index{server/init/game/link\+\_\+tiles.\+c@{server/init/game/link\+\_\+tiles.\+c}}
+{\ttfamily \#include \char`\"{}game/map.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{link__tiles_8c_aeb9c6e0259a297d33b4d99696df4b3da}{link\+\_\+tile}} (int i, tile\+\_\+t $\ast$init\+\_\+tile, int width, int height)
+\begin{DoxyCompactList}\small\item\em Link a tile with his neighbours. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{link__tiles_8c_a8b3c7c7b7d9652a6185afbb3fefde929}{link\+\_\+tiles}} (tile\+\_\+t $\ast$map, int width, int height)
+\begin{DoxyCompactList}\small\item\em Link all tiles with each other, to make the map circular. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{link__tiles_8c_aeb9c6e0259a297d33b4d99696df4b3da}\label{link__tiles_8c_aeb9c6e0259a297d33b4d99696df4b3da}} 
+\index{link\+\_\+tiles.\+c@{link\+\_\+tiles.\+c}!link\+\_\+tile@{link\+\_\+tile}}
+\index{link\+\_\+tile@{link\+\_\+tile}!link\+\_\+tiles.\+c@{link\+\_\+tiles.\+c}}
+\subsubsection{\texorpdfstring{link\+\_\+tile()}{link\_tile()}}
+{\footnotesize\ttfamily void link\+\_\+tile (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{tile\+\_\+t $\ast$}]{init\+\_\+tile,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Link a tile with his neighbours. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+{\em init\+\_\+tile} & \\
+\hline
+{\em width} & \\
+\hline
+{\em height} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file link\+\_\+tiles.\+c.
+
+\mbox{\Hypertarget{link__tiles_8c_a8b3c7c7b7d9652a6185afbb3fefde929}\label{link__tiles_8c_a8b3c7c7b7d9652a6185afbb3fefde929}} 
+\index{link\+\_\+tiles.\+c@{link\+\_\+tiles.\+c}!link\+\_\+tiles@{link\+\_\+tiles}}
+\index{link\+\_\+tiles@{link\+\_\+tiles}!link\+\_\+tiles.\+c@{link\+\_\+tiles.\+c}}
+\subsubsection{\texorpdfstring{link\+\_\+tiles()}{link\_tiles()}}
+{\footnotesize\ttfamily void link\+\_\+tiles (\begin{DoxyParamCaption}\item[{tile\+\_\+t $\ast$}]{map,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Link all tiles with each other, to make the map circular. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & \\
+\hline
+{\em width} & \\
+\hline
+{\em height} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 42 of file link\+\_\+tiles.\+c.
+

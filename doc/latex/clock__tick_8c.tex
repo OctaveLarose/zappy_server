@@ -1,0 +1,109 @@
+\hypertarget{clock__tick_8c}{}\section{server/clock/clock\+\_\+tick.c File Reference}
+\label{clock__tick_8c}\index{server/clock/clock\+\_\+tick.\+c@{server/clock/clock\+\_\+tick.\+c}}
+{\ttfamily \#include \char`\"{}game/log.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{clock__tick_8c_a7719c3f16f86dd601d60071d2d0345fc}{clock\+\_\+tick\+\_\+clients}} (client\+\_\+t $\ast$client, clock\+\_\+t time\+\_\+diff)
+\begin{DoxyCompactList}\small\item\em Update client timeout. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{clock__tick_8c_abcf24e2c104e0f5e708a98e10f440ecb}{clock\+\_\+tick\+\_\+player\+\_\+ttl}} (player\+\_\+t $\ast$$\ast$player, game\+\_\+t $\ast$game, int ttf)
+\begin{DoxyCompactList}\small\item\em Check if player have enough and otherwise kill it. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{clock__tick_8c_a57e7f5a6e237635cbc11fe5db6dad3c0}{clock\+\_\+tick\+\_\+players}} (game\+\_\+t $\ast$game, clock\+\_\+t time\+\_\+diff, double f)
+\begin{DoxyCompactList}\small\item\em Loop over all players and update their food. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{clock__tick_8c_a9d7430d8b02c56e378f4697beebd3107}{clock\+\_\+tick}} (zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}}, clock\+\_\+t time\+\_\+start)
+\begin{DoxyCompactList}\small\item\em Update game time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{clock__tick_8c_a9d7430d8b02c56e378f4697beebd3107}\label{clock__tick_8c_a9d7430d8b02c56e378f4697beebd3107}} 
+\index{clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}!clock\+\_\+tick@{clock\+\_\+tick}}
+\index{clock\+\_\+tick@{clock\+\_\+tick}!clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}}
+\subsubsection{\texorpdfstring{clock\+\_\+tick()}{clock\_tick()}}
+{\footnotesize\ttfamily void clock\+\_\+tick (\begin{DoxyParamCaption}\item[{zappy\+\_\+t $\ast$}]{zappy,  }\item[{clock\+\_\+t}]{time\+\_\+start }\end{DoxyParamCaption})}
+
+
+
+Update game time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em zappy} & \\
+\hline
+{\em time\+\_\+start} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 80 of file clock\+\_\+tick.\+c.
+
+\mbox{\Hypertarget{clock__tick_8c_a7719c3f16f86dd601d60071d2d0345fc}\label{clock__tick_8c_a7719c3f16f86dd601d60071d2d0345fc}} 
+\index{clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}!clock\+\_\+tick\+\_\+clients@{clock\+\_\+tick\+\_\+clients}}
+\index{clock\+\_\+tick\+\_\+clients@{clock\+\_\+tick\+\_\+clients}!clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}}
+\subsubsection{\texorpdfstring{clock\+\_\+tick\+\_\+clients()}{clock\_tick\_clients()}}
+{\footnotesize\ttfamily void clock\+\_\+tick\+\_\+clients (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$}]{client,  }\item[{clock\+\_\+t}]{time\+\_\+diff }\end{DoxyParamCaption})}
+
+
+
+Update client timeout. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em time\+\_\+diff} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file clock\+\_\+tick.\+c.
+
+\mbox{\Hypertarget{clock__tick_8c_abcf24e2c104e0f5e708a98e10f440ecb}\label{clock__tick_8c_abcf24e2c104e0f5e708a98e10f440ecb}} 
+\index{clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}!clock\+\_\+tick\+\_\+player\+\_\+ttl@{clock\+\_\+tick\+\_\+player\+\_\+ttl}}
+\index{clock\+\_\+tick\+\_\+player\+\_\+ttl@{clock\+\_\+tick\+\_\+player\+\_\+ttl}!clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}}
+\subsubsection{\texorpdfstring{clock\+\_\+tick\+\_\+player\+\_\+ttl()}{clock\_tick\_player\_ttl()}}
+{\footnotesize\ttfamily int clock\+\_\+tick\+\_\+player\+\_\+ttl (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$$\ast$}]{player,  }\item[{game\+\_\+t $\ast$}]{game,  }\item[{int}]{ttf }\end{DoxyParamCaption})}
+
+
+
+Check if player have enough and otherwise kill it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em game} & \\
+\hline
+{\em ttf} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if the player died, 0 otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 29 of file clock\+\_\+tick.\+c.
+
+\mbox{\Hypertarget{clock__tick_8c_a57e7f5a6e237635cbc11fe5db6dad3c0}\label{clock__tick_8c_a57e7f5a6e237635cbc11fe5db6dad3c0}} 
+\index{clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}!clock\+\_\+tick\+\_\+players@{clock\+\_\+tick\+\_\+players}}
+\index{clock\+\_\+tick\+\_\+players@{clock\+\_\+tick\+\_\+players}!clock\+\_\+tick.\+c@{clock\+\_\+tick.\+c}}
+\subsubsection{\texorpdfstring{clock\+\_\+tick\+\_\+players()}{clock\_tick\_players()}}
+{\footnotesize\ttfamily void clock\+\_\+tick\+\_\+players (\begin{DoxyParamCaption}\item[{game\+\_\+t $\ast$}]{game,  }\item[{clock\+\_\+t}]{time\+\_\+diff,  }\item[{double}]{f }\end{DoxyParamCaption})}
+
+
+
+Loop over all players and update their food. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & \\
+\hline
+{\em time\+\_\+diff} & \\
+\hline
+{\em f} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 56 of file clock\+\_\+tick.\+c.
+

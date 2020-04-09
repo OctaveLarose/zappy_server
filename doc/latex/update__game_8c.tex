@@ -1,0 +1,85 @@
+\hypertarget{update__game_8c}{}\section{server/game/update/update\+\_\+game.c File Reference}
+\label{update__game_8c}\index{server/game/update/update\+\_\+game.\+c@{server/game/update/update\+\_\+game.\+c}}
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/log.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{update__game_8c_ad04b159df96cde528a83ff78ad862a5e}{handle\+\_\+player\+\_\+command}} (player\+\_\+t $\ast$player, game\+\_\+t $\ast$game)
+\item 
+bool \mbox{\hyperlink{update__game_8c_ab44c708c0c67a3dc3db78169240c6296}{handle\+\_\+players}} (player\+\_\+t $\ast$players, game\+\_\+t $\ast$game)
+\begin{DoxyCompactList}\small\item\em Execute pending commands on players. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{update__game_8c_a768a8e7fd99c2ba473189c95abccb479}{should\+\_\+game\+\_\+reset}} (game\+\_\+t $\ast$game)
+\item 
+int \mbox{\hyperlink{update__game_8c_ac2c89bd55eafd04c5f3ae6cd0f312479}{update\+\_\+game}} (game\+\_\+t $\ast$game)
+\begin{DoxyCompactList}\small\item\em Update the game state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{update__game_8c_ad04b159df96cde528a83ff78ad862a5e}\label{update__game_8c_ad04b159df96cde528a83ff78ad862a5e}} 
+\index{update\+\_\+game.\+c@{update\+\_\+game.\+c}!handle\+\_\+player\+\_\+command@{handle\+\_\+player\+\_\+command}}
+\index{handle\+\_\+player\+\_\+command@{handle\+\_\+player\+\_\+command}!update\+\_\+game.\+c@{update\+\_\+game.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+player\+\_\+command()}{handle\_player\_command()}}
+{\footnotesize\ttfamily bool handle\+\_\+player\+\_\+command (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player,  }\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Definition at line 12 of file update\+\_\+game.\+c.
+
+\mbox{\Hypertarget{update__game_8c_ab44c708c0c67a3dc3db78169240c6296}\label{update__game_8c_ab44c708c0c67a3dc3db78169240c6296}} 
+\index{update\+\_\+game.\+c@{update\+\_\+game.\+c}!handle\+\_\+players@{handle\+\_\+players}}
+\index{handle\+\_\+players@{handle\+\_\+players}!update\+\_\+game.\+c@{update\+\_\+game.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+players()}{handle\_players()}}
+{\footnotesize\ttfamily bool handle\+\_\+players (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{players,  }\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Execute pending commands on players. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em players} & \\
+\hline
+{\em game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 33 of file update\+\_\+game.\+c.
+
+\mbox{\Hypertarget{update__game_8c_a768a8e7fd99c2ba473189c95abccb479}\label{update__game_8c_a768a8e7fd99c2ba473189c95abccb479}} 
+\index{update\+\_\+game.\+c@{update\+\_\+game.\+c}!should\+\_\+game\+\_\+reset@{should\+\_\+game\+\_\+reset}}
+\index{should\+\_\+game\+\_\+reset@{should\+\_\+game\+\_\+reset}!update\+\_\+game.\+c@{update\+\_\+game.\+c}}
+\subsubsection{\texorpdfstring{should\+\_\+game\+\_\+reset()}{should\_game\_reset()}}
+{\footnotesize\ttfamily bool should\+\_\+game\+\_\+reset (\begin{DoxyParamCaption}\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Definition at line 48 of file update\+\_\+game.\+c.
+
+\mbox{\Hypertarget{update__game_8c_ac2c89bd55eafd04c5f3ae6cd0f312479}\label{update__game_8c_ac2c89bd55eafd04c5f3ae6cd0f312479}} 
+\index{update\+\_\+game.\+c@{update\+\_\+game.\+c}!update\+\_\+game@{update\+\_\+game}}
+\index{update\+\_\+game@{update\+\_\+game}!update\+\_\+game.\+c@{update\+\_\+game.\+c}}
+\subsubsection{\texorpdfstring{update\+\_\+game()}{update\_game()}}
+{\footnotesize\ttfamily int update\+\_\+game (\begin{DoxyParamCaption}\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Update the game state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 64 of file update\+\_\+game.\+c.
+

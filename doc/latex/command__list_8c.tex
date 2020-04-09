@@ -1,0 +1,39 @@
+\hypertarget{command__list_8c}{}\section{server/game/commands/command\+\_\+list.c File Reference}
+\label{command__list_8c}\index{server/game/commands/command\+\_\+list.\+c@{server/game/commands/command\+\_\+list.\+c}}
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const struct s\+\_\+command \mbox{\hyperlink{command__list_8c_a07aedb482132c26e02d61ea8b227425f}{command\+\_\+list}} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{command__list_8c_a07aedb482132c26e02d61ea8b227425f}\label{command__list_8c_a07aedb482132c26e02d61ea8b227425f}} 
+\index{command\+\_\+list.\+c@{command\+\_\+list.\+c}!command\+\_\+list@{command\+\_\+list}}
+\index{command\+\_\+list@{command\+\_\+list}!command\+\_\+list.\+c@{command\+\_\+list.\+c}}
+\subsubsection{\texorpdfstring{command\+\_\+list}{command\_list}}
+{\footnotesize\ttfamily const struct s\+\_\+command command\+\_\+list\mbox{[}$\,$\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{
+    \{.name = \textcolor{stringliteral}{"Forward"}, .cmd\_ptr = &\mbox{\hyperlink{move_8c_abe776e68a72e8f53114668125e8bea0b}{cmd\_forward}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Right"}, .cmd\_ptr = &\mbox{\hyperlink{move_8c_a65071329cd5cbfdb3bc1e542dc7bc32d}{cmd\_right}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Left"}, .cmd\_ptr = &\mbox{\hyperlink{move_8c_a316cfdbe611ffcb794838076e4a410cc}{cmd\_left}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Look"}, .cmd\_ptr = &\mbox{\hyperlink{look_8c_a638ce2b0029026be60fc9a8910d81882}{cmd\_look}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Inventory"}, .cmd\_ptr = &\mbox{\hyperlink{inventory_8c_ae6a102726a56f106e23aab465f7a0e26}{cmd\_inventory}}, 1\},
+    \{.name = \textcolor{stringliteral}{"Broadcast"}, .cmd\_ptr = &\mbox{\hyperlink{broadcast_8c_a45d437b78f9da9caa746a129901f0a3f}{cmd\_broadcast}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Connect\_nbr"}, .cmd\_ptr = &\mbox{\hyperlink{connect__nbr_8c_a2dd287bd22b32795edf11ecd957e4793}{cmd\_connect\_nbr}}, 0\},
+    \{.name = \textcolor{stringliteral}{"Fork"}, .cmd\_ptr = &\mbox{\hyperlink{fork_8c_abf261b8eaa581e259a8ea1efe0e5bacf}{cmd\_fork}}, 42\},
+    \{.name = \textcolor{stringliteral}{"Eject"}, .cmd\_ptr = &\mbox{\hyperlink{eject_8c_ae3bff40bb6f0b125b2359329815137de}{cmd\_eject}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Take"}, .cmd\_ptr = &\mbox{\hyperlink{take__set_8c_a9d0f0e54cf1ac97b1d6cc88188ad9e37}{cmd\_take}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Set"}, .cmd\_ptr = &\mbox{\hyperlink{take__set_8c_a2d27f5327bf7830a195311fa73b38853}{cmd\_set}}, 7\},
+    \{.name = \textcolor{stringliteral}{"Incantation"}, .cmd\_ptr = &\mbox{\hyperlink{incantation_8c_a8285c9a7fefacb7643d733e04233e25d}{cmd\_incantation}}, 300\},
+    \{.name = NULL\}
+\}
+\end{DoxyCode}
+
+
+Definition at line 10 of file command\+\_\+list.\+c.
+

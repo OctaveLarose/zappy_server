@@ -1,0 +1,47 @@
+\hypertarget{accept_8c}{}\section{server/network/client/accept.c File Reference}
+\label{accept_8c}\index{server/network/client/accept.\+c@{server/network/client/accept.\+c}}
+{\ttfamily \#include \char`\"{}network/server.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}errors.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{accept_8c_a90bf9ab8059669e7d3cb8fb3fed82abd}{get\+\_\+socket\+\_\+client}} (int serv\+\_\+socket, struct sockaddr\+\_\+in $\ast$sock\+\_\+addr)
+\item 
+client\+\_\+t $\ast$ \mbox{\hyperlink{accept_8c_ac85bff9eb55ba8c39e3fe423292be883}{accept\+\_\+client}} (server\+\_\+t $\ast$server)
+\begin{DoxyCompactList}\small\item\em Accept (socket), create a client and add the client fd to the read and write fdsets. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{accept_8c_ac85bff9eb55ba8c39e3fe423292be883}\label{accept_8c_ac85bff9eb55ba8c39e3fe423292be883}} 
+\index{accept.\+c@{accept.\+c}!accept\+\_\+client@{accept\+\_\+client}}
+\index{accept\+\_\+client@{accept\+\_\+client}!accept.\+c@{accept.\+c}}
+\subsubsection{\texorpdfstring{accept\+\_\+client()}{accept\_client()}}
+{\footnotesize\ttfamily client\+\_\+t$\ast$ accept\+\_\+client (\begin{DoxyParamCaption}\item[{server\+\_\+t $\ast$}]{server }\end{DoxyParamCaption})}
+
+
+
+Accept (socket), create a client and add the client fd to the read and write fdsets. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em server} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the new client 
+\end{DoxyReturn}
+
+
+Definition at line 34 of file accept.\+c.
+
+\mbox{\Hypertarget{accept_8c_a90bf9ab8059669e7d3cb8fb3fed82abd}\label{accept_8c_a90bf9ab8059669e7d3cb8fb3fed82abd}} 
+\index{accept.\+c@{accept.\+c}!get\+\_\+socket\+\_\+client@{get\+\_\+socket\+\_\+client}}
+\index{get\+\_\+socket\+\_\+client@{get\+\_\+socket\+\_\+client}!accept.\+c@{accept.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+socket\+\_\+client()}{get\_socket\_client()}}
+{\footnotesize\ttfamily int get\+\_\+socket\+\_\+client (\begin{DoxyParamCaption}\item[{int}]{serv\+\_\+socket,  }\item[{struct sockaddr\+\_\+in $\ast$}]{sock\+\_\+addr }\end{DoxyParamCaption})}
+
+
+
+Definition at line 12 of file accept.\+c.
+

@@ -1,0 +1,62 @@
+\hypertarget{eject_8c}{}\section{server/game/commands/eject.c File Reference}
+\label{eject_8c}\index{server/game/commands/eject.\+c@{server/game/commands/eject.\+c}}
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \mbox{\hyperlink{eject_8c_abc0419cd76ff0cce0d60494491c85b2f}{dir\+\_\+to\+\_\+str}} (dir\+\_\+t dir)
+\item 
+bool \mbox{\hyperlink{eject_8c_a2d95af883c34dc0221109871e5ef43ef}{init\+\_\+eject\+\_\+msg}} (player\+\_\+t $\ast$player, dir\+\_\+t dir)
+\item 
+int \mbox{\hyperlink{eject_8c_ae3bff40bb6f0b125b2359329815137de}{cmd\+\_\+eject}} (char $\ast$cmd, player\+\_\+t $\ast$player, game\+\_\+t $\ast$game)
+\begin{DoxyCompactList}\small\item\em Eject a player from his tile. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{eject_8c_ae3bff40bb6f0b125b2359329815137de}\label{eject_8c_ae3bff40bb6f0b125b2359329815137de}} 
+\index{eject.\+c@{eject.\+c}!cmd\+\_\+eject@{cmd\+\_\+eject}}
+\index{cmd\+\_\+eject@{cmd\+\_\+eject}!eject.\+c@{eject.\+c}}
+\subsubsection{\texorpdfstring{cmd\+\_\+eject()}{cmd\_eject()}}
+{\footnotesize\ttfamily int cmd\+\_\+eject (\begin{DoxyParamCaption}\item[{char $\ast$}]{cmd,  }\item[{player\+\_\+t $\ast$}]{player,  }\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Eject a player from his tile. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+{\em player} & \\
+\hline
+{\em game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 38 of file eject.\+c.
+
+\mbox{\Hypertarget{eject_8c_abc0419cd76ff0cce0d60494491c85b2f}\label{eject_8c_abc0419cd76ff0cce0d60494491c85b2f}} 
+\index{eject.\+c@{eject.\+c}!dir\+\_\+to\+\_\+str@{dir\+\_\+to\+\_\+str}}
+\index{dir\+\_\+to\+\_\+str@{dir\+\_\+to\+\_\+str}!eject.\+c@{eject.\+c}}
+\subsubsection{\texorpdfstring{dir\+\_\+to\+\_\+str()}{dir\_to\_str()}}
+{\footnotesize\ttfamily char$\ast$ dir\+\_\+to\+\_\+str (\begin{DoxyParamCaption}\item[{dir\+\_\+t}]{dir }\end{DoxyParamCaption})}
+
+
+
+Definition at line 12 of file eject.\+c.
+
+\mbox{\Hypertarget{eject_8c_a2d95af883c34dc0221109871e5ef43ef}\label{eject_8c_a2d95af883c34dc0221109871e5ef43ef}} 
+\index{eject.\+c@{eject.\+c}!init\+\_\+eject\+\_\+msg@{init\+\_\+eject\+\_\+msg}}
+\index{init\+\_\+eject\+\_\+msg@{init\+\_\+eject\+\_\+msg}!eject.\+c@{eject.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+eject\+\_\+msg()}{init\_eject\_msg()}}
+{\footnotesize\ttfamily bool init\+\_\+eject\+\_\+msg (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player,  }\item[{dir\+\_\+t}]{dir }\end{DoxyParamCaption})}
+
+
+
+Definition at line 21 of file eject.\+c.
+

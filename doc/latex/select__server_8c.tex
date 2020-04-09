@@ -1,0 +1,39 @@
+\hypertarget{select__server_8c}{}\section{server/network/select\+\_\+server.c File Reference}
+\label{select__server_8c}\index{server/network/select\+\_\+server.\+c@{server/network/select\+\_\+server.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{select__server_8c_a1add6c46d6e0d6215c07d980cdce77e0}{select\+\_\+server}} (zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}}, fd\+\_\+set $\ast$rfds, fd\+\_\+set $\ast$wfds)
+\begin{DoxyCompactList}\small\item\em Allow the server to handle multiple clients concurrently. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{select__server_8c_a1add6c46d6e0d6215c07d980cdce77e0}\label{select__server_8c_a1add6c46d6e0d6215c07d980cdce77e0}} 
+\index{select\+\_\+server.\+c@{select\+\_\+server.\+c}!select\+\_\+server@{select\+\_\+server}}
+\index{select\+\_\+server@{select\+\_\+server}!select\+\_\+server.\+c@{select\+\_\+server.\+c}}
+\subsubsection{\texorpdfstring{select\+\_\+server()}{select\_server()}}
+{\footnotesize\ttfamily bool select\+\_\+server (\begin{DoxyParamCaption}\item[{zappy\+\_\+t $\ast$}]{zappy,  }\item[{fd\+\_\+set $\ast$}]{rfds,  }\item[{fd\+\_\+set $\ast$}]{wfds }\end{DoxyParamCaption})}
+
+
+
+Allow the server to handle multiple clients concurrently. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em zappy} & \\
+\hline
+{\em rfds} & \\
+\hline
+{\em wfds} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true on success, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 17 of file select\+\_\+server.\+c.
+

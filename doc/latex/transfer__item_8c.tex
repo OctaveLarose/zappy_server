@@ -1,0 +1,89 @@
+\hypertarget{transfer__item_8c}{}\section{server/game/inventory/transfer\+\_\+item.c File Reference}
+\label{transfer__item_8c}\index{server/game/inventory/transfer\+\_\+item.\+c@{server/game/inventory/transfer\+\_\+item.\+c}}
+{\ttfamily \#include \char`\"{}game/inventory.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{transfer__item_8c_a36863fe9f27e5369f0568cc2e26f34a2}{add\+\_\+resource\+\_\+to\+\_\+inventory}} (inventory\+\_\+t $\ast$inventory, resource\+\_\+t resource)
+\begin{DoxyCompactList}\small\item\em Add the resource in the given inventory. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{transfer__item_8c_aa2d8d1517ee4ef456fdb0a57c98efdac}{del\+\_\+resource\+\_\+from\+\_\+inventory}} (inventory\+\_\+t $\ast$inventory, resource\+\_\+t resource)
+\begin{DoxyCompactList}\small\item\em Relive the resource from the given inventory. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{transfer__item_8c_a003972b15f43f3b7d4b1c2cf3386f360}{transfer\+\_\+item}} (inventory\+\_\+t $\ast$inv\+\_\+from, inventory\+\_\+t $\ast$inv\+\_\+to, resource\+\_\+t res)
+\begin{DoxyCompactList}\small\item\em Move a resource between to inventories. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{transfer__item_8c_a36863fe9f27e5369f0568cc2e26f34a2}\label{transfer__item_8c_a36863fe9f27e5369f0568cc2e26f34a2}} 
+\index{transfer\+\_\+item.\+c@{transfer\+\_\+item.\+c}!add\+\_\+resource\+\_\+to\+\_\+inventory@{add\+\_\+resource\+\_\+to\+\_\+inventory}}
+\index{add\+\_\+resource\+\_\+to\+\_\+inventory@{add\+\_\+resource\+\_\+to\+\_\+inventory}!transfer\+\_\+item.\+c@{transfer\+\_\+item.\+c}}
+\subsubsection{\texorpdfstring{add\+\_\+resource\+\_\+to\+\_\+inventory()}{add\_resource\_to\_inventory()}}
+{\footnotesize\ttfamily bool add\+\_\+resource\+\_\+to\+\_\+inventory (\begin{DoxyParamCaption}\item[{inventory\+\_\+t $\ast$}]{inventory,  }\item[{resource\+\_\+t}]{resource }\end{DoxyParamCaption})}
+
+
+
+Add the resource in the given inventory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inventory} & \\
+\hline
+{\em resource} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 14 of file transfer\+\_\+item.\+c.
+
+\mbox{\Hypertarget{transfer__item_8c_aa2d8d1517ee4ef456fdb0a57c98efdac}\label{transfer__item_8c_aa2d8d1517ee4ef456fdb0a57c98efdac}} 
+\index{transfer\+\_\+item.\+c@{transfer\+\_\+item.\+c}!del\+\_\+resource\+\_\+from\+\_\+inventory@{del\+\_\+resource\+\_\+from\+\_\+inventory}}
+\index{del\+\_\+resource\+\_\+from\+\_\+inventory@{del\+\_\+resource\+\_\+from\+\_\+inventory}!transfer\+\_\+item.\+c@{transfer\+\_\+item.\+c}}
+\subsubsection{\texorpdfstring{del\+\_\+resource\+\_\+from\+\_\+inventory()}{del\_resource\_from\_inventory()}}
+{\footnotesize\ttfamily bool del\+\_\+resource\+\_\+from\+\_\+inventory (\begin{DoxyParamCaption}\item[{inventory\+\_\+t $\ast$}]{inventory,  }\item[{resource\+\_\+t}]{resource }\end{DoxyParamCaption})}
+
+
+
+Relive the resource from the given inventory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inventory} & \\
+\hline
+{\em resource} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if success, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file transfer\+\_\+item.\+c.
+
+\mbox{\Hypertarget{transfer__item_8c_a003972b15f43f3b7d4b1c2cf3386f360}\label{transfer__item_8c_a003972b15f43f3b7d4b1c2cf3386f360}} 
+\index{transfer\+\_\+item.\+c@{transfer\+\_\+item.\+c}!transfer\+\_\+item@{transfer\+\_\+item}}
+\index{transfer\+\_\+item@{transfer\+\_\+item}!transfer\+\_\+item.\+c@{transfer\+\_\+item.\+c}}
+\subsubsection{\texorpdfstring{transfer\+\_\+item()}{transfer\_item()}}
+{\footnotesize\ttfamily bool transfer\+\_\+item (\begin{DoxyParamCaption}\item[{inventory\+\_\+t $\ast$}]{inv\+\_\+from,  }\item[{inventory\+\_\+t $\ast$}]{inv\+\_\+to,  }\item[{resource\+\_\+t}]{res }\end{DoxyParamCaption})}
+
+
+
+Move a resource between to inventories. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inv\+\_\+from} & \\
+\hline
+{\em inv\+\_\+to} & \\
+\hline
+{\em res} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if success, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 49 of file transfer\+\_\+item.\+c.
+

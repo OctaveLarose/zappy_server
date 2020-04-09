@@ -1,0 +1,92 @@
+\hypertarget{network_2client_2delete_8c}{}\section{server/network/client/delete.c File Reference}
+\label{network_2client_2delete_8c}\index{server/network/client/delete.\+c@{server/network/client/delete.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}network/client.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}network/server.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{network_2client_2delete_8c_a2ecd561b3d4b635c4b230cc93f9e414a}{free\+\_\+client}} (client\+\_\+t $\ast$client)
+\begin{DoxyCompactList}\small\item\em Close the client file descriptor and free the memory allocated for the client. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{network_2client_2delete_8c_a293eddbf277bbb39fa9528c97b84bd9f}{free\+\_\+all\+\_\+clients}} (client\+\_\+t $\ast$client)
+\item 
+void \mbox{\hyperlink{network_2client_2delete_8c_a97595ae42e07f9ccbb66127aa24d10ee}{delete\+\_\+client}} (client\+\_\+t $\ast$$\ast$first, int fd)
+\begin{DoxyCompactList}\small\item\em Remove the client corresponding to the given file descriptor from the given clients linked list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{network_2client_2delete_8c_a8a9e53e1e30771e1239d55ebcd1f7ea7}{disconnect\+\_\+client}} (client\+\_\+t $\ast$$\ast$client, server\+\_\+t $\ast$server, const char $\ast$reason)
+\begin{DoxyCompactList}\small\item\em Remove a client from the fdsets (it won\textquotesingle{}t be able to communicate) and delete it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{network_2client_2delete_8c_a97595ae42e07f9ccbb66127aa24d10ee}\label{network_2client_2delete_8c_a97595ae42e07f9ccbb66127aa24d10ee}} 
+\index{network/client/delete.\+c@{network/client/delete.\+c}!delete\+\_\+client@{delete\+\_\+client}}
+\index{delete\+\_\+client@{delete\+\_\+client}!network/client/delete.\+c@{network/client/delete.\+c}}
+\subsubsection{\texorpdfstring{delete\+\_\+client()}{delete\_client()}}
+{\footnotesize\ttfamily void delete\+\_\+client (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{first,  }\item[{int}]{fd }\end{DoxyParamCaption})}
+
+
+
+Remove the client corresponding to the given file descriptor from the given clients linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \\
+\hline
+{\em fd} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 40 of file delete.\+c.
+
+\mbox{\Hypertarget{network_2client_2delete_8c_a8a9e53e1e30771e1239d55ebcd1f7ea7}\label{network_2client_2delete_8c_a8a9e53e1e30771e1239d55ebcd1f7ea7}} 
+\index{network/client/delete.\+c@{network/client/delete.\+c}!disconnect\+\_\+client@{disconnect\+\_\+client}}
+\index{disconnect\+\_\+client@{disconnect\+\_\+client}!network/client/delete.\+c@{network/client/delete.\+c}}
+\subsubsection{\texorpdfstring{disconnect\+\_\+client()}{disconnect\_client()}}
+{\footnotesize\ttfamily void disconnect\+\_\+client (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{client,  }\item[{server\+\_\+t $\ast$}]{server,  }\item[{const char $\ast$}]{reason }\end{DoxyParamCaption})}
+
+
+
+Remove a client from the fdsets (it won\textquotesingle{}t be able to communicate) and delete it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em server} & \\
+\hline
+{\em reason} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 67 of file delete.\+c.
+
+\mbox{\Hypertarget{network_2client_2delete_8c_a293eddbf277bbb39fa9528c97b84bd9f}\label{network_2client_2delete_8c_a293eddbf277bbb39fa9528c97b84bd9f}} 
+\index{network/client/delete.\+c@{network/client/delete.\+c}!free\+\_\+all\+\_\+clients@{free\+\_\+all\+\_\+clients}}
+\index{free\+\_\+all\+\_\+clients@{free\+\_\+all\+\_\+clients}!network/client/delete.\+c@{network/client/delete.\+c}}
+\subsubsection{\texorpdfstring{free\+\_\+all\+\_\+clients()}{free\_all\_clients()}}
+{\footnotesize\ttfamily void free\+\_\+all\+\_\+clients (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$}]{client }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file delete.\+c.
+
+\mbox{\Hypertarget{network_2client_2delete_8c_a2ecd561b3d4b635c4b230cc93f9e414a}\label{network_2client_2delete_8c_a2ecd561b3d4b635c4b230cc93f9e414a}} 
+\index{network/client/delete.\+c@{network/client/delete.\+c}!free\+\_\+client@{free\+\_\+client}}
+\index{free\+\_\+client@{free\+\_\+client}!network/client/delete.\+c@{network/client/delete.\+c}}
+\subsubsection{\texorpdfstring{free\+\_\+client()}{free\_client()}}
+{\footnotesize\ttfamily void free\+\_\+client (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$}]{client }\end{DoxyParamCaption})}
+
+
+
+Close the client file descriptor and free the memory allocated for the client. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 15 of file delete.\+c.
+

@@ -1,0 +1,63 @@
+\hypertarget{manage__wfds_8c}{}\section{server/network/wfds/manage\+\_\+wfds.c File Reference}
+\label{manage__wfds_8c}\index{server/network/wfds/manage\+\_\+wfds.\+c@{server/network/wfds/manage\+\_\+wfds.\+c}}
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}network/server.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{manage__wfds_8c_a283bbc45e5b6251bf2c9329dc98ebf8f}{handle\+\_\+client\+\_\+wfds}} (client\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}})
+\begin{DoxyCompactList}\small\item\em Handle the while progress of a client, sent it welcome and map information on connection, and redirect after depending on his type. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{manage__wfds_8c_ac855bbd4dc1b83deab842dcf42aea638}{manage\+\_\+wfds}} (client\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}})
+\begin{DoxyCompactList}\small\item\em Check if the handle\+\_\+client\+\_\+wfds returned an error, of if the client is a valid one. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{manage__wfds_8c_a283bbc45e5b6251bf2c9329dc98ebf8f}\label{manage__wfds_8c_a283bbc45e5b6251bf2c9329dc98ebf8f}} 
+\index{manage\+\_\+wfds.\+c@{manage\+\_\+wfds.\+c}!handle\+\_\+client\+\_\+wfds@{handle\+\_\+client\+\_\+wfds}}
+\index{handle\+\_\+client\+\_\+wfds@{handle\+\_\+client\+\_\+wfds}!manage\+\_\+wfds.\+c@{manage\+\_\+wfds.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+client\+\_\+wfds()}{handle\_client\_wfds()}}
+{\footnotesize\ttfamily int handle\+\_\+client\+\_\+wfds (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy }\end{DoxyParamCaption})}
+
+
+
+Handle the while progress of a client, sent it welcome and map information on connection, and redirect after depending on his type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em zappy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status (A\+D\+D\+\_\+\+F\+A\+IL, E\+RR, OK) 
+\end{DoxyReturn}
+
+
+Definition at line 18 of file manage\+\_\+wfds.\+c.
+
+\mbox{\Hypertarget{manage__wfds_8c_ac855bbd4dc1b83deab842dcf42aea638}\label{manage__wfds_8c_ac855bbd4dc1b83deab842dcf42aea638}} 
+\index{manage\+\_\+wfds.\+c@{manage\+\_\+wfds.\+c}!manage\+\_\+wfds@{manage\+\_\+wfds}}
+\index{manage\+\_\+wfds@{manage\+\_\+wfds}!manage\+\_\+wfds.\+c@{manage\+\_\+wfds.\+c}}
+\subsubsection{\texorpdfstring{manage\+\_\+wfds()}{manage\_wfds()}}
+{\footnotesize\ttfamily int manage\+\_\+wfds (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy }\end{DoxyParamCaption})}
+
+
+
+Check if the handle\+\_\+client\+\_\+wfds returned an error, of if the client is a valid one. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em zappy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 40 of file manage\+\_\+wfds.\+c.
+

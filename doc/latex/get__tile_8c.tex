@@ -1,0 +1,85 @@
+\hypertarget{get__tile_8c}{}\section{server/game/map/get\+\_\+tile.c File Reference}
+\label{get__tile_8c}\index{server/game/map/get\+\_\+tile.\+c@{server/game/map/get\+\_\+tile.\+c}}
+{\ttfamily \#include \char`\"{}game/map.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+tile\+\_\+t $\ast$ \mbox{\hyperlink{get__tile_8c_a202af9257f5d95072b3fe6fba3d41d3a}{get\+\_\+tile}} (world\+\_\+t $\ast$world, vec2i\+\_\+t $\ast$pos)
+\begin{DoxyCompactList}\small\item\em Get the tile at the given position in the world. \end{DoxyCompactList}\item 
+tile\+\_\+t $\ast$ \mbox{\hyperlink{get__tile_8c_a8bdf1367ff4050c398bc4ebc81f3104d}{get\+\_\+tile\+\_\+in\+\_\+dir}} (tile\+\_\+t $\ast$tile, dir\+\_\+t dir)
+\begin{DoxyCompactList}\small\item\em Get the next tile in the given direction. \end{DoxyCompactList}\item 
+tile\+\_\+t $\ast$ \mbox{\hyperlink{get__tile_8c_aae3a52537b0c198d11cfcb9c44eb7eb7}{get\+\_\+random\+\_\+tile}} (world\+\_\+t $\ast$world)
+\begin{DoxyCompactList}\small\item\em Pick a random tile in the world. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{get__tile_8c_aae3a52537b0c198d11cfcb9c44eb7eb7}\label{get__tile_8c_aae3a52537b0c198d11cfcb9c44eb7eb7}} 
+\index{get\+\_\+tile.\+c@{get\+\_\+tile.\+c}!get\+\_\+random\+\_\+tile@{get\+\_\+random\+\_\+tile}}
+\index{get\+\_\+random\+\_\+tile@{get\+\_\+random\+\_\+tile}!get\+\_\+tile.\+c@{get\+\_\+tile.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+random\+\_\+tile()}{get\_random\_tile()}}
+{\footnotesize\ttfamily tile\+\_\+t$\ast$ get\+\_\+random\+\_\+tile (\begin{DoxyParamCaption}\item[{world\+\_\+t $\ast$}]{world }\end{DoxyParamCaption})}
+
+
+
+Pick a random tile in the world. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em world} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the tile 
+\end{DoxyReturn}
+
+
+Definition at line 47 of file get\+\_\+tile.\+c.
+
+\mbox{\Hypertarget{get__tile_8c_a202af9257f5d95072b3fe6fba3d41d3a}\label{get__tile_8c_a202af9257f5d95072b3fe6fba3d41d3a}} 
+\index{get\+\_\+tile.\+c@{get\+\_\+tile.\+c}!get\+\_\+tile@{get\+\_\+tile}}
+\index{get\+\_\+tile@{get\+\_\+tile}!get\+\_\+tile.\+c@{get\+\_\+tile.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+tile()}{get\_tile()}}
+{\footnotesize\ttfamily tile\+\_\+t$\ast$ get\+\_\+tile (\begin{DoxyParamCaption}\item[{world\+\_\+t $\ast$}]{world,  }\item[{vec2i\+\_\+t $\ast$}]{pos }\end{DoxyParamCaption})}
+
+
+
+Get the tile at the given position in the world. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em world} & \\
+\hline
+{\em pos} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the tile or null if not found 
+\end{DoxyReturn}
+
+
+Definition at line 14 of file get\+\_\+tile.\+c.
+
+\mbox{\Hypertarget{get__tile_8c_a8bdf1367ff4050c398bc4ebc81f3104d}\label{get__tile_8c_a8bdf1367ff4050c398bc4ebc81f3104d}} 
+\index{get\+\_\+tile.\+c@{get\+\_\+tile.\+c}!get\+\_\+tile\+\_\+in\+\_\+dir@{get\+\_\+tile\+\_\+in\+\_\+dir}}
+\index{get\+\_\+tile\+\_\+in\+\_\+dir@{get\+\_\+tile\+\_\+in\+\_\+dir}!get\+\_\+tile.\+c@{get\+\_\+tile.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+tile\+\_\+in\+\_\+dir()}{get\_tile\_in\_dir()}}
+{\footnotesize\ttfamily tile\+\_\+t$\ast$ get\+\_\+tile\+\_\+in\+\_\+dir (\begin{DoxyParamCaption}\item[{tile\+\_\+t $\ast$}]{tile,  }\item[{dir\+\_\+t}]{dir }\end{DoxyParamCaption})}
+
+
+
+Get the next tile in the given direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tile} & \\
+\hline
+{\em dir} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the found tile, or null if invalid direction 
+\end{DoxyReturn}
+
+
+Definition at line 28 of file get\+\_\+tile.\+c.
+

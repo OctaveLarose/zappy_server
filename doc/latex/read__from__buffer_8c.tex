@@ -1,0 +1,57 @@
+\hypertarget{read__from__buffer_8c}{}\section{server/circular\+\_\+buffer/read\+\_\+from\+\_\+buffer.c File Reference}
+\label{read__from__buffer_8c}\index{server/circular\+\_\+buffer/read\+\_\+from\+\_\+buffer.\+c@{server/circular\+\_\+buffer/read\+\_\+from\+\_\+buffer.\+c}}
+{\ttfamily \#include \char`\"{}circular\+\_\+buffer.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{read__from__buffer_8c_a4d278940db0d5f8655c1988f1fd9b58d}{is\+\_\+buf\+\_\+readable}} (c\+\_\+buffer\+\_\+t $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em Check if the buffer contain something. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{read__from__buffer_8c_a3bd7ebba584383e02f83a0a7c5a6e210}{read\+\_\+from\+\_\+buffer}} (c\+\_\+buffer\+\_\+t $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em Check if not empty and get a valid command from it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{read__from__buffer_8c_a4d278940db0d5f8655c1988f1fd9b58d}\label{read__from__buffer_8c_a4d278940db0d5f8655c1988f1fd9b58d}} 
+\index{read\+\_\+from\+\_\+buffer.\+c@{read\+\_\+from\+\_\+buffer.\+c}!is\+\_\+buf\+\_\+readable@{is\+\_\+buf\+\_\+readable}}
+\index{is\+\_\+buf\+\_\+readable@{is\+\_\+buf\+\_\+readable}!read\+\_\+from\+\_\+buffer.\+c@{read\+\_\+from\+\_\+buffer.\+c}}
+\subsubsection{\texorpdfstring{is\+\_\+buf\+\_\+readable()}{is\_buf\_readable()}}
+{\footnotesize\ttfamily bool is\+\_\+buf\+\_\+readable (\begin{DoxyParamCaption}\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+
+
+Check if the buffer contain something. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if not empty 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file read\+\_\+from\+\_\+buffer.\+c.
+
+\mbox{\Hypertarget{read__from__buffer_8c_a3bd7ebba584383e02f83a0a7c5a6e210}\label{read__from__buffer_8c_a3bd7ebba584383e02f83a0a7c5a6e210}} 
+\index{read\+\_\+from\+\_\+buffer.\+c@{read\+\_\+from\+\_\+buffer.\+c}!read\+\_\+from\+\_\+buffer@{read\+\_\+from\+\_\+buffer}}
+\index{read\+\_\+from\+\_\+buffer@{read\+\_\+from\+\_\+buffer}!read\+\_\+from\+\_\+buffer.\+c@{read\+\_\+from\+\_\+buffer.\+c}}
+\subsubsection{\texorpdfstring{read\+\_\+from\+\_\+buffer()}{read\_from\_buffer()}}
+{\footnotesize\ttfamily char$\ast$ read\+\_\+from\+\_\+buffer (\begin{DoxyParamCaption}\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+
+
+Check if not empty and get a valid command from it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a valid command 
+\end{DoxyReturn}
+
+
+Definition at line 23 of file read\+\_\+from\+\_\+buffer.\+c.
+

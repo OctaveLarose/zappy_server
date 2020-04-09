@@ -1,0 +1,81 @@
+\hypertarget{team_2get__nbr__players_8c}{}\section{server/game/team/get\+\_\+nbr\+\_\+players.c File Reference}
+\label{team_2get__nbr__players_8c}\index{server/game/team/get\+\_\+nbr\+\_\+players.\+c@{server/game/team/get\+\_\+nbr\+\_\+players.\+c}}
+{\ttfamily \#include \char`\"{}game/team.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{team_2get__nbr__players_8c_af55964aab0bf0169f25be91ff7423a43}{get\+\_\+team\+\_\+nbr\+\_\+players}} (team\+\_\+t $\ast$team)
+\begin{DoxyCompactList}\small\item\em Count the number of players in a given team. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{team_2get__nbr__players_8c_ad463d3b5f7f9ad495a8f3ecaa62b26f2}{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free}} (team\+\_\+t $\ast$team)
+\begin{DoxyCompactList}\small\item\em Count how much players free from a client in a given team. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{team_2get__nbr__players_8c_abc8eaf768736274c337b0021493f0f21}{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free}} (team\+\_\+t $\ast$team)
+\begin{DoxyCompactList}\small\item\em Count how much players with client in a given team. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{team_2get__nbr__players_8c_af55964aab0bf0169f25be91ff7423a43}\label{team_2get__nbr__players_8c_af55964aab0bf0169f25be91ff7423a43}} 
+\index{team/get\+\_\+nbr\+\_\+players.\+c@{team/get\+\_\+nbr\+\_\+players.\+c}!get\+\_\+team\+\_\+nbr\+\_\+players@{get\+\_\+team\+\_\+nbr\+\_\+players}}
+\index{get\+\_\+team\+\_\+nbr\+\_\+players@{get\+\_\+team\+\_\+nbr\+\_\+players}!team/get\+\_\+nbr\+\_\+players.\+c@{team/get\+\_\+nbr\+\_\+players.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+team\+\_\+nbr\+\_\+players()}{get\_team\_nbr\_players()}}
+{\footnotesize\ttfamily int get\+\_\+team\+\_\+nbr\+\_\+players (\begin{DoxyParamCaption}\item[{team\+\_\+t $\ast$}]{team }\end{DoxyParamCaption})}
+
+
+
+Count the number of players in a given team. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em team} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+count 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file get\+\_\+nbr\+\_\+players.\+c.
+
+\mbox{\Hypertarget{team_2get__nbr__players_8c_ad463d3b5f7f9ad495a8f3ecaa62b26f2}\label{team_2get__nbr__players_8c_ad463d3b5f7f9ad495a8f3ecaa62b26f2}} 
+\index{team/get\+\_\+nbr\+\_\+players.\+c@{team/get\+\_\+nbr\+\_\+players.\+c}!get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free@{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free}}
+\index{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free@{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free}!team/get\+\_\+nbr\+\_\+players.\+c@{team/get\+\_\+nbr\+\_\+players.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free()}{get\_team\_nbr\_players\_free()}}
+{\footnotesize\ttfamily int get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free (\begin{DoxyParamCaption}\item[{team\+\_\+t $\ast$}]{team }\end{DoxyParamCaption})}
+
+
+
+Count how much players free from a client in a given team. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em team} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+count 
+\end{DoxyReturn}
+
+
+Definition at line 27 of file get\+\_\+nbr\+\_\+players.\+c.
+
+\mbox{\Hypertarget{team_2get__nbr__players_8c_abc8eaf768736274c337b0021493f0f21}\label{team_2get__nbr__players_8c_abc8eaf768736274c337b0021493f0f21}} 
+\index{team/get\+\_\+nbr\+\_\+players.\+c@{team/get\+\_\+nbr\+\_\+players.\+c}!get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free@{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free}}
+\index{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free@{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free}!team/get\+\_\+nbr\+\_\+players.\+c@{team/get\+\_\+nbr\+\_\+players.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free()}{get\_team\_nbr\_players\_not\_free()}}
+{\footnotesize\ttfamily int get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free (\begin{DoxyParamCaption}\item[{team\+\_\+t $\ast$}]{team }\end{DoxyParamCaption})}
+
+
+
+Count how much players with client in a given team. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em team} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+count 
+\end{DoxyReturn}
+
+
+Definition at line 43 of file get\+\_\+nbr\+\_\+players.\+c.
+

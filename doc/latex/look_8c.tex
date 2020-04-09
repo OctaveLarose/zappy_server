@@ -1,0 +1,77 @@
+\hypertarget{look_8c}{}\section{server/game/commands/look.c File Reference}
+\label{look_8c}\index{server/game/commands/look.\+c@{server/game/commands/look.\+c}}
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}errors.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{look_8c_ad7a574a3681f8ca574ee1276bab746f9}{fill\+\_\+resp\+\_\+look\+\_\+row}} (buffer\+\_\+t $\ast$buf, tile\+\_\+t $\ast$first, dir\+\_\+t dir\+\_\+look, int i)
+\item 
+int \mbox{\hyperlink{look_8c_a6e4a549bfb8b20affbd0a7df78b46af7}{fill\+\_\+resp\+\_\+look}} (buffer\+\_\+t $\ast$buf, player\+\_\+t $\ast$player)
+\begin{DoxyCompactList}\small\item\em Format output in a readable look server response. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{look_8c_a638ce2b0029026be60fc9a8910d81882}{cmd\+\_\+look}} (char $\ast$cmd, player\+\_\+t $\ast$player, game\+\_\+t $\ast$game)
+\begin{DoxyCompactList}\small\item\em Get what is in the field of view of the player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{look_8c_a638ce2b0029026be60fc9a8910d81882}\label{look_8c_a638ce2b0029026be60fc9a8910d81882}} 
+\index{look.\+c@{look.\+c}!cmd\+\_\+look@{cmd\+\_\+look}}
+\index{cmd\+\_\+look@{cmd\+\_\+look}!look.\+c@{look.\+c}}
+\subsubsection{\texorpdfstring{cmd\+\_\+look()}{cmd\_look()}}
+{\footnotesize\ttfamily int cmd\+\_\+look (\begin{DoxyParamCaption}\item[{char $\ast$}]{cmd,  }\item[{player\+\_\+t $\ast$}]{player,  }\item[{game\+\_\+t $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+Get what is in the field of view of the player. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+{\em player} & \\
+\hline
+{\em game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status 
+\end{DoxyReturn}
+
+
+Definition at line 67 of file look.\+c.
+
+\mbox{\Hypertarget{look_8c_a6e4a549bfb8b20affbd0a7df78b46af7}\label{look_8c_a6e4a549bfb8b20affbd0a7df78b46af7}} 
+\index{look.\+c@{look.\+c}!fill\+\_\+resp\+\_\+look@{fill\+\_\+resp\+\_\+look}}
+\index{fill\+\_\+resp\+\_\+look@{fill\+\_\+resp\+\_\+look}!look.\+c@{look.\+c}}
+\subsubsection{\texorpdfstring{fill\+\_\+resp\+\_\+look()}{fill\_resp\_look()}}
+{\footnotesize\ttfamily int fill\+\_\+resp\+\_\+look (\begin{DoxyParamCaption}\item[{buffer\+\_\+t $\ast$}]{buf,  }\item[{player\+\_\+t $\ast$}]{player }\end{DoxyParamCaption})}
+
+
+
+Format output in a readable look server response. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buf} & \\
+\hline
+{\em player} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status 
+\end{DoxyReturn}
+
+
+Definition at line 42 of file look.\+c.
+
+\mbox{\Hypertarget{look_8c_ad7a574a3681f8ca574ee1276bab746f9}\label{look_8c_ad7a574a3681f8ca574ee1276bab746f9}} 
+\index{look.\+c@{look.\+c}!fill\+\_\+resp\+\_\+look\+\_\+row@{fill\+\_\+resp\+\_\+look\+\_\+row}}
+\index{fill\+\_\+resp\+\_\+look\+\_\+row@{fill\+\_\+resp\+\_\+look\+\_\+row}!look.\+c@{look.\+c}}
+\subsubsection{\texorpdfstring{fill\+\_\+resp\+\_\+look\+\_\+row()}{fill\_resp\_look\_row()}}
+{\footnotesize\ttfamily int fill\+\_\+resp\+\_\+look\+\_\+row (\begin{DoxyParamCaption}\item[{buffer\+\_\+t $\ast$}]{buf,  }\item[{tile\+\_\+t $\ast$}]{first,  }\item[{dir\+\_\+t}]{dir\+\_\+look,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file look.\+c.
+

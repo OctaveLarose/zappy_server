@@ -1,0 +1,95 @@
+\hypertarget{teams_8c}{}\section{server/init/game/teams.c File Reference}
+\label{teams_8c}\index{server/init/game/teams.\+c@{server/init/game/teams.\+c}}
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/team.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+team\+\_\+t \mbox{\hyperlink{teams_8c_a544db3e10d49169da101229ae9ae0ee5}{init\+\_\+team}} (char $\ast$name, int nb\+\_\+clients\+\_\+max)
+\begin{DoxyCompactList}\small\item\em Fill a team struct with the given name and max client. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{teams_8c_a8a641d5c725971202c7d68f7f3844612}{free\+\_\+team\+\_\+array}} (team\+\_\+t $\ast$teams)
+\begin{DoxyCompactList}\small\item\em Free the memory allocated by teams. \end{DoxyCompactList}\item 
+team\+\_\+t $\ast$ \mbox{\hyperlink{teams_8c_adaa44774701852cac7922a7657fc4bd9}{init\+\_\+teams}} (char $\ast$$\ast$team\+\_\+names, int nb\+\_\+max\+\_\+clients)
+\begin{DoxyCompactList}\small\item\em Allocate the memory required for teams and initialize them. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{teams_8c_a967ed2ba69732efc8f286593f17ae47c}{print\+\_\+teams}} (team\+\_\+t $\ast$teams)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{teams_8c_a8a641d5c725971202c7d68f7f3844612}\label{teams_8c_a8a641d5c725971202c7d68f7f3844612}} 
+\index{teams.\+c@{teams.\+c}!free\+\_\+team\+\_\+array@{free\+\_\+team\+\_\+array}}
+\index{free\+\_\+team\+\_\+array@{free\+\_\+team\+\_\+array}!teams.\+c@{teams.\+c}}
+\subsubsection{\texorpdfstring{free\+\_\+team\+\_\+array()}{free\_team\_array()}}
+{\footnotesize\ttfamily void free\+\_\+team\+\_\+array (\begin{DoxyParamCaption}\item[{team\+\_\+t $\ast$}]{teams }\end{DoxyParamCaption})}
+
+
+
+Free the memory allocated by teams. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em teams} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file teams.\+c.
+
+\mbox{\Hypertarget{teams_8c_a544db3e10d49169da101229ae9ae0ee5}\label{teams_8c_a544db3e10d49169da101229ae9ae0ee5}} 
+\index{teams.\+c@{teams.\+c}!init\+\_\+team@{init\+\_\+team}}
+\index{init\+\_\+team@{init\+\_\+team}!teams.\+c@{teams.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+team()}{init\_team()}}
+{\footnotesize\ttfamily team\+\_\+t init\+\_\+team (\begin{DoxyParamCaption}\item[{char $\ast$}]{name,  }\item[{int}]{nb\+\_\+clients\+\_\+max }\end{DoxyParamCaption})}
+
+
+
+Fill a team struct with the given name and max client. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em nb\+\_\+clients\+\_\+max} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 15 of file teams.\+c.
+
+\mbox{\Hypertarget{teams_8c_adaa44774701852cac7922a7657fc4bd9}\label{teams_8c_adaa44774701852cac7922a7657fc4bd9}} 
+\index{teams.\+c@{teams.\+c}!init\+\_\+teams@{init\+\_\+teams}}
+\index{init\+\_\+teams@{init\+\_\+teams}!teams.\+c@{teams.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+teams()}{init\_teams()}}
+{\footnotesize\ttfamily team\+\_\+t$\ast$ init\+\_\+teams (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{team\+\_\+names,  }\item[{int}]{nb\+\_\+max\+\_\+clients }\end{DoxyParamCaption})}
+
+
+
+Allocate the memory required for teams and initialize them. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em team\+\_\+names} & \\
+\hline
+{\em nb\+\_\+max\+\_\+clients} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 42 of file teams.\+c.
+
+\mbox{\Hypertarget{teams_8c_a967ed2ba69732efc8f286593f17ae47c}\label{teams_8c_a967ed2ba69732efc8f286593f17ae47c}} 
+\index{teams.\+c@{teams.\+c}!print\+\_\+teams@{print\+\_\+teams}}
+\index{print\+\_\+teams@{print\+\_\+teams}!teams.\+c@{teams.\+c}}
+\subsubsection{\texorpdfstring{print\+\_\+teams()}{print\_teams()}}
+{\footnotesize\ttfamily void print\+\_\+teams (\begin{DoxyParamCaption}\item[{team\+\_\+t $\ast$}]{teams }\end{DoxyParamCaption})}
+
+
+
+Definition at line 55 of file teams.\+c.
+

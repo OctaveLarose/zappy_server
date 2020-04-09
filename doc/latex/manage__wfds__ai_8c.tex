@@ -1,0 +1,60 @@
+\hypertarget{manage__wfds__ai_8c}{}\section{server/network/wfds/manage\+\_\+wfds\+\_\+ai.c File Reference}
+\label{manage__wfds__ai_8c}\index{server/network/wfds/manage\+\_\+wfds\+\_\+ai.\+c@{server/network/wfds/manage\+\_\+wfds\+\_\+ai.\+c}}
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}network/server.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{manage__wfds__ai_8c_a964fd179ccaa1e1e4098d0c5a97a4d8e}{init\+\_\+serv\+\_\+info\+\_\+buffer}} (client\+\_\+ai\+\_\+t $\ast$client, world\+\_\+t $\ast$world)
+\begin{DoxyCompactList}\small\item\em Fill the client out buffer with map size and client ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{manage__wfds__ai_8c_a8c9f06a57c178a648199f867cef84822}{handle\+\_\+client\+\_\+ai\+\_\+wfds}} (client\+\_\+t $\ast$$\ast$client, zappy\+\_\+t $\ast$\mbox{\hyperlink{main_8c_ab81c074054002b0e24932a857ff4f1b8}{zappy}})
+\begin{DoxyCompactList}\small\item\em Send world info to the AI client. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{manage__wfds__ai_8c_a8c9f06a57c178a648199f867cef84822}\label{manage__wfds__ai_8c_a8c9f06a57c178a648199f867cef84822}} 
+\index{manage\+\_\+wfds\+\_\+ai.\+c@{manage\+\_\+wfds\+\_\+ai.\+c}!handle\+\_\+client\+\_\+ai\+\_\+wfds@{handle\+\_\+client\+\_\+ai\+\_\+wfds}}
+\index{handle\+\_\+client\+\_\+ai\+\_\+wfds@{handle\+\_\+client\+\_\+ai\+\_\+wfds}!manage\+\_\+wfds\+\_\+ai.\+c@{manage\+\_\+wfds\+\_\+ai.\+c}}
+\subsubsection{\texorpdfstring{handle\+\_\+client\+\_\+ai\+\_\+wfds()}{handle\_client\_ai\_wfds()}}
+{\footnotesize\ttfamily int handle\+\_\+client\+\_\+ai\+\_\+wfds (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$$\ast$}]{client,  }\item[{zappy\+\_\+t $\ast$}]{zappy }\end{DoxyParamCaption})}
+
+
+
+Send world info to the AI client. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em zappy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 35 of file manage\+\_\+wfds\+\_\+ai.\+c.
+
+\mbox{\Hypertarget{manage__wfds__ai_8c_a964fd179ccaa1e1e4098d0c5a97a4d8e}\label{manage__wfds__ai_8c_a964fd179ccaa1e1e4098d0c5a97a4d8e}} 
+\index{manage\+\_\+wfds\+\_\+ai.\+c@{manage\+\_\+wfds\+\_\+ai.\+c}!init\+\_\+serv\+\_\+info\+\_\+buffer@{init\+\_\+serv\+\_\+info\+\_\+buffer}}
+\index{init\+\_\+serv\+\_\+info\+\_\+buffer@{init\+\_\+serv\+\_\+info\+\_\+buffer}!manage\+\_\+wfds\+\_\+ai.\+c@{manage\+\_\+wfds\+\_\+ai.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+serv\+\_\+info\+\_\+buffer()}{init\_serv\_info\_buffer()}}
+{\footnotesize\ttfamily void init\+\_\+serv\+\_\+info\+\_\+buffer (\begin{DoxyParamCaption}\item[{client\+\_\+ai\+\_\+t $\ast$}]{client,  }\item[{world\+\_\+t $\ast$}]{world }\end{DoxyParamCaption})}
+
+
+
+Fill the client out buffer with map size and client ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em world} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 15 of file manage\+\_\+wfds\+\_\+ai.\+c.
+

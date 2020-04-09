@@ -1,0 +1,47 @@
+\hypertarget{parse__command_8c}{}\section{server/network/rfds/parse\+\_\+command.c File Reference}
+\label{parse__command_8c}\index{server/network/rfds/parse\+\_\+command.\+c@{server/network/rfds/parse\+\_\+command.\+c}}
+{\ttfamily \#include \char`\"{}network/client.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{parse__command_8c_a150ad78710e26d320a381258732812f8}{remove\+\_\+endline\+\_\+from\+\_\+command}} (char $\ast$str)
+\item 
+int \mbox{\hyperlink{parse__command_8c_a672ad775bc77748a1891d28849b822bf}{add\+\_\+str\+\_\+to\+\_\+command}} (c\+\_\+buffer\+\_\+t $\ast$buf, char $\ast$$\ast$buf\+\_\+str, char $\ast$cmd, int $\ast$j)
+\item 
+bool \mbox{\hyperlink{parse__command_8c_ad695de5ad71e5441a64df0cc86f4b87f}{parse\+\_\+command}} (c\+\_\+buffer\+\_\+t $\ast$buf, char commands\mbox{[}M\+A\+X\+\_\+\+C\+O\+M\+M\+A\+N\+DS\mbox{]}\mbox{[}M\+A\+X\+\_\+\+C\+M\+D\+\_\+\+L\+EN\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{parse__command_8c_a672ad775bc77748a1891d28849b822bf}\label{parse__command_8c_a672ad775bc77748a1891d28849b822bf}} 
+\index{parse\+\_\+command.\+c@{parse\+\_\+command.\+c}!add\+\_\+str\+\_\+to\+\_\+command@{add\+\_\+str\+\_\+to\+\_\+command}}
+\index{add\+\_\+str\+\_\+to\+\_\+command@{add\+\_\+str\+\_\+to\+\_\+command}!parse\+\_\+command.\+c@{parse\+\_\+command.\+c}}
+\subsubsection{\texorpdfstring{add\+\_\+str\+\_\+to\+\_\+command()}{add\_str\_to\_command()}}
+{\footnotesize\ttfamily int add\+\_\+str\+\_\+to\+\_\+command (\begin{DoxyParamCaption}\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buf,  }\item[{char $\ast$$\ast$}]{buf\+\_\+str,  }\item[{char $\ast$}]{cmd,  }\item[{int $\ast$}]{j }\end{DoxyParamCaption})}
+
+
+
+Definition at line 25 of file parse\+\_\+command.\+c.
+
+\mbox{\Hypertarget{parse__command_8c_ad695de5ad71e5441a64df0cc86f4b87f}\label{parse__command_8c_ad695de5ad71e5441a64df0cc86f4b87f}} 
+\index{parse\+\_\+command.\+c@{parse\+\_\+command.\+c}!parse\+\_\+command@{parse\+\_\+command}}
+\index{parse\+\_\+command@{parse\+\_\+command}!parse\+\_\+command.\+c@{parse\+\_\+command.\+c}}
+\subsubsection{\texorpdfstring{parse\+\_\+command()}{parse\_command()}}
+{\footnotesize\ttfamily bool parse\+\_\+command (\begin{DoxyParamCaption}\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buf,  }\item[{char}]{commands\mbox{[}\+M\+A\+X\+\_\+\+C\+O\+M\+M\+A\+N\+D\+S\mbox{]}\mbox{[}\+M\+A\+X\+\_\+\+C\+M\+D\+\_\+\+L\+E\+N\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 46 of file parse\+\_\+command.\+c.
+
+\mbox{\Hypertarget{parse__command_8c_a150ad78710e26d320a381258732812f8}\label{parse__command_8c_a150ad78710e26d320a381258732812f8}} 
+\index{parse\+\_\+command.\+c@{parse\+\_\+command.\+c}!remove\+\_\+endline\+\_\+from\+\_\+command@{remove\+\_\+endline\+\_\+from\+\_\+command}}
+\index{remove\+\_\+endline\+\_\+from\+\_\+command@{remove\+\_\+endline\+\_\+from\+\_\+command}!parse\+\_\+command.\+c@{parse\+\_\+command.\+c}}
+\subsubsection{\texorpdfstring{remove\+\_\+endline\+\_\+from\+\_\+command()}{remove\_endline\_from\_command()}}
+{\footnotesize\ttfamily bool remove\+\_\+endline\+\_\+from\+\_\+command (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 12 of file parse\+\_\+command.\+c.
+

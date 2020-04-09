@@ -1,0 +1,98 @@
+\hypertarget{server_8c}{}\section{server/init/server.c File Reference}
+\label{server_8c}\index{server/init/server.\+c@{server/init/server.\+c}}
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}errors.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}network/server.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{server_8c_a43343c0a8c7afc4c7c7ddc6972d020bc}{init\+\_\+sock\+\_\+address}} (struct sockaddr\+\_\+in $\ast$sock\+\_\+addr, int socket, int port)
+\begin{DoxyCompactList}\small\item\em Bind the socket to the selected port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{server_8c_a6acb2e6b7b09310a30639fc4ce4c7fb6}{init\+\_\+select}} (server\+\_\+t $\ast$server)
+\begin{DoxyCompactList}\small\item\em Setup select\textquotesingle{}s fdsets. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{server_8c_a04e113f23ef2bc33b3901c79ba728e9f}{debug\+\_\+no\+\_\+reuse}} (int sct)
+\item 
+int \mbox{\hyperlink{server_8c_a48d5a6e6a8e525cc2eeb8941842a7343}{init\+\_\+server}} (server\+\_\+t $\ast$server, int port)
+\begin{DoxyCompactList}\small\item\em Create the socket and setup the listening port. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{server_8c_a04e113f23ef2bc33b3901c79ba728e9f}\label{server_8c_a04e113f23ef2bc33b3901c79ba728e9f}} 
+\index{server.\+c@{server.\+c}!debug\+\_\+no\+\_\+reuse@{debug\+\_\+no\+\_\+reuse}}
+\index{debug\+\_\+no\+\_\+reuse@{debug\+\_\+no\+\_\+reuse}!server.\+c@{server.\+c}}
+\subsubsection{\texorpdfstring{debug\+\_\+no\+\_\+reuse()}{debug\_no\_reuse()}}
+{\footnotesize\ttfamily void debug\+\_\+no\+\_\+reuse (\begin{DoxyParamCaption}\item[{int}]{sct }\end{DoxyParamCaption})}
+
+
+
+Definition at line 40 of file server.\+c.
+
+\mbox{\Hypertarget{server_8c_a6acb2e6b7b09310a30639fc4ce4c7fb6}\label{server_8c_a6acb2e6b7b09310a30639fc4ce4c7fb6}} 
+\index{server.\+c@{server.\+c}!init\+\_\+select@{init\+\_\+select}}
+\index{init\+\_\+select@{init\+\_\+select}!server.\+c@{server.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+select()}{init\_select()}}
+{\footnotesize\ttfamily void init\+\_\+select (\begin{DoxyParamCaption}\item[{server\+\_\+t $\ast$}]{server }\end{DoxyParamCaption})}
+
+
+
+Setup select\textquotesingle{}s fdsets. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em server} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file server.\+c.
+
+\mbox{\Hypertarget{server_8c_a48d5a6e6a8e525cc2eeb8941842a7343}\label{server_8c_a48d5a6e6a8e525cc2eeb8941842a7343}} 
+\index{server.\+c@{server.\+c}!init\+\_\+server@{init\+\_\+server}}
+\index{init\+\_\+server@{init\+\_\+server}!server.\+c@{server.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+server()}{init\_server()}}
+{\footnotesize\ttfamily int init\+\_\+server (\begin{DoxyParamCaption}\item[{server\+\_\+t $\ast$}]{server,  }\item[{int}]{port }\end{DoxyParamCaption})}
+
+
+
+Create the socket and setup the listening port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em server} & \\
+\hline
+{\em port} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 54 of file server.\+c.
+
+\mbox{\Hypertarget{server_8c_a43343c0a8c7afc4c7c7ddc6972d020bc}\label{server_8c_a43343c0a8c7afc4c7c7ddc6972d020bc}} 
+\index{server.\+c@{server.\+c}!init\+\_\+sock\+\_\+address@{init\+\_\+sock\+\_\+address}}
+\index{init\+\_\+sock\+\_\+address@{init\+\_\+sock\+\_\+address}!server.\+c@{server.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+sock\+\_\+address()}{init\_sock\_address()}}
+{\footnotesize\ttfamily int init\+\_\+sock\+\_\+address (\begin{DoxyParamCaption}\item[{struct sockaddr\+\_\+in $\ast$}]{sock\+\_\+addr,  }\item[{int}]{socket,  }\item[{int}]{port }\end{DoxyParamCaption})}
+
+
+
+Bind the socket to the selected port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sock\+\_\+addr} & \\
+\hline
+{\em socket} & \\
+\hline
+{\em port} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 17 of file server.\+c.
+

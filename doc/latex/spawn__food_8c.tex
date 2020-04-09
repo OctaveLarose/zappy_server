@@ -1,0 +1,84 @@
+\hypertarget{spawn__food_8c}{}\section{server/game/map/spawn\+\_\+food.c File Reference}
+\label{spawn__food_8c}\index{server/game/map/spawn\+\_\+food.\+c@{server/game/map/spawn\+\_\+food.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}game/log.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/game.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{spawn__food_8c_aa1e6145c151a7d826609a062d76cba72}{spawn\+\_\+resource\+\_\+at\+\_\+pos}} (world\+\_\+t $\ast$map, vec2i\+\_\+t $\ast$pos, resource\+\_\+t resource)
+\begin{DoxyCompactList}\small\item\em Spawn a resource at the given pos in the world. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{spawn__food_8c_ac9aa63837e07aa311d7d75f8cc946054}{init\+\_\+random\+\_\+pos}} (vec2i\+\_\+t $\ast$pos, int width, int height)
+\begin{DoxyCompactList}\small\item\em Fill a vector with random value, boundaries are width and height. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{spawn__food_8c_ab0fa2430b7f1b421b873b25957aa83d1}{spawn\+\_\+resource}} (world\+\_\+t $\ast$world, buffer\+\_\+t $\ast$game\+\_\+log)
+\begin{DoxyCompactList}\small\item\em Add a resource in the given world and add the according command in the game\+\_\+log buffer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{spawn__food_8c_ac9aa63837e07aa311d7d75f8cc946054}\label{spawn__food_8c_ac9aa63837e07aa311d7d75f8cc946054}} 
+\index{spawn\+\_\+food.\+c@{spawn\+\_\+food.\+c}!init\+\_\+random\+\_\+pos@{init\+\_\+random\+\_\+pos}}
+\index{init\+\_\+random\+\_\+pos@{init\+\_\+random\+\_\+pos}!spawn\+\_\+food.\+c@{spawn\+\_\+food.\+c}}
+\subsubsection{\texorpdfstring{init\+\_\+random\+\_\+pos()}{init\_random\_pos()}}
+{\footnotesize\ttfamily void init\+\_\+random\+\_\+pos (\begin{DoxyParamCaption}\item[{vec2i\+\_\+t $\ast$}]{pos,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Fill a vector with random value, boundaries are width and height. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & \\
+\hline
+{\em width} & \\
+\hline
+{\em height} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 29 of file spawn\+\_\+food.\+c.
+
+\mbox{\Hypertarget{spawn__food_8c_ab0fa2430b7f1b421b873b25957aa83d1}\label{spawn__food_8c_ab0fa2430b7f1b421b873b25957aa83d1}} 
+\index{spawn\+\_\+food.\+c@{spawn\+\_\+food.\+c}!spawn\+\_\+resource@{spawn\+\_\+resource}}
+\index{spawn\+\_\+resource@{spawn\+\_\+resource}!spawn\+\_\+food.\+c@{spawn\+\_\+food.\+c}}
+\subsubsection{\texorpdfstring{spawn\+\_\+resource()}{spawn\_resource()}}
+{\footnotesize\ttfamily void spawn\+\_\+resource (\begin{DoxyParamCaption}\item[{world\+\_\+t $\ast$}]{world,  }\item[{buffer\+\_\+t $\ast$}]{game\+\_\+log }\end{DoxyParamCaption})}
+
+
+
+Add a resource in the given world and add the according command in the game\+\_\+log buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em world} & \\
+\hline
+{\em game\+\_\+log} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file spawn\+\_\+food.\+c.
+
+\mbox{\Hypertarget{spawn__food_8c_aa1e6145c151a7d826609a062d76cba72}\label{spawn__food_8c_aa1e6145c151a7d826609a062d76cba72}} 
+\index{spawn\+\_\+food.\+c@{spawn\+\_\+food.\+c}!spawn\+\_\+resource\+\_\+at\+\_\+pos@{spawn\+\_\+resource\+\_\+at\+\_\+pos}}
+\index{spawn\+\_\+resource\+\_\+at\+\_\+pos@{spawn\+\_\+resource\+\_\+at\+\_\+pos}!spawn\+\_\+food.\+c@{spawn\+\_\+food.\+c}}
+\subsubsection{\texorpdfstring{spawn\+\_\+resource\+\_\+at\+\_\+pos()}{spawn\_resource\_at\_pos()}}
+{\footnotesize\ttfamily bool spawn\+\_\+resource\+\_\+at\+\_\+pos (\begin{DoxyParamCaption}\item[{world\+\_\+t $\ast$}]{map,  }\item[{vec2i\+\_\+t $\ast$}]{pos,  }\item[{resource\+\_\+t}]{resource }\end{DoxyParamCaption})}
+
+
+
+Spawn a resource at the given pos in the world. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & \\
+\hline
+{\em pos} & \\
+\hline
+{\em resource} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file spawn\+\_\+food.\+c.
+

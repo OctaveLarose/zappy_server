@@ -1,0 +1,65 @@
+\hypertarget{give__player__to__client_8c}{}\section{server/network/rfds/give\+\_\+player\+\_\+to\+\_\+client.c File Reference}
+\label{give__player__to__client_8c}\index{server/network/rfds/give\+\_\+player\+\_\+to\+\_\+client.\+c@{server/network/rfds/give\+\_\+player\+\_\+to\+\_\+client.\+c}}
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+player\+\_\+t $\ast$ \mbox{\hyperlink{give__player__to__client_8c_a8393a1ebd6daf48d2d732a5b27e2c598}{check\+\_\+for\+\_\+free\+\_\+player}} (player\+\_\+t $\ast$pls, team\+\_\+t $\ast$team, client\+\_\+ai\+\_\+t $\ast$cli)
+\begin{DoxyCompactList}\small\item\em Go over all players and check if some don\textquotesingle{}t have a client connected on. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{give__player__to__client_8c_a20cdf26116f963096205868257f5cfa1}{give\+\_\+player\+\_\+to\+\_\+client}} (client\+\_\+ai\+\_\+t $\ast$client, game\+\_\+t $\ast$game, char $\ast$team\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Attribute a player to a client, if none available, it will create a new one. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{give__player__to__client_8c_a8393a1ebd6daf48d2d732a5b27e2c598}\label{give__player__to__client_8c_a8393a1ebd6daf48d2d732a5b27e2c598}} 
+\index{give\+\_\+player\+\_\+to\+\_\+client.\+c@{give\+\_\+player\+\_\+to\+\_\+client.\+c}!check\+\_\+for\+\_\+free\+\_\+player@{check\+\_\+for\+\_\+free\+\_\+player}}
+\index{check\+\_\+for\+\_\+free\+\_\+player@{check\+\_\+for\+\_\+free\+\_\+player}!give\+\_\+player\+\_\+to\+\_\+client.\+c@{give\+\_\+player\+\_\+to\+\_\+client.\+c}}
+\subsubsection{\texorpdfstring{check\+\_\+for\+\_\+free\+\_\+player()}{check\_for\_free\_player()}}
+{\footnotesize\ttfamily player\+\_\+t$\ast$ check\+\_\+for\+\_\+free\+\_\+player (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{pls,  }\item[{team\+\_\+t $\ast$}]{team,  }\item[{client\+\_\+ai\+\_\+t $\ast$}]{cli }\end{DoxyParamCaption})}
+
+
+
+Go over all players and check if some don\textquotesingle{}t have a client connected on. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pls} & \\
+\hline
+{\em team} & \\
+\hline
+{\em cli} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 16 of file give\+\_\+player\+\_\+to\+\_\+client.\+c.
+
+\mbox{\Hypertarget{give__player__to__client_8c_a20cdf26116f963096205868257f5cfa1}\label{give__player__to__client_8c_a20cdf26116f963096205868257f5cfa1}} 
+\index{give\+\_\+player\+\_\+to\+\_\+client.\+c@{give\+\_\+player\+\_\+to\+\_\+client.\+c}!give\+\_\+player\+\_\+to\+\_\+client@{give\+\_\+player\+\_\+to\+\_\+client}}
+\index{give\+\_\+player\+\_\+to\+\_\+client@{give\+\_\+player\+\_\+to\+\_\+client}!give\+\_\+player\+\_\+to\+\_\+client.\+c@{give\+\_\+player\+\_\+to\+\_\+client.\+c}}
+\subsubsection{\texorpdfstring{give\+\_\+player\+\_\+to\+\_\+client()}{give\_player\_to\_client()}}
+{\footnotesize\ttfamily int give\+\_\+player\+\_\+to\+\_\+client (\begin{DoxyParamCaption}\item[{client\+\_\+ai\+\_\+t $\ast$}]{client,  }\item[{game\+\_\+t $\ast$}]{game,  }\item[{char $\ast$}]{team\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+Attribute a player to a client, if none available, it will create a new one. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em game} & \\
+\hline
+{\em team\+\_\+name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file give\+\_\+player\+\_\+to\+\_\+client.\+c.
+

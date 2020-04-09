@@ -1,0 +1,85 @@
+\hypertarget{add__to__buffer_8c}{}\section{server/circular\+\_\+buffer/add\+\_\+to\+\_\+buffer.c File Reference}
+\label{add__to__buffer_8c}\index{server/circular\+\_\+buffer/add\+\_\+to\+\_\+buffer.\+c@{server/circular\+\_\+buffer/add\+\_\+to\+\_\+buffer.\+c}}
+{\ttfamily \#include \char`\"{}circular\+\_\+buffer.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{add__to__buffer_8c_a3c9b92eafb4434110923ff3b435713b7}{get\+\_\+len\+\_\+left}} (c\+\_\+buffer\+\_\+t $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em Get free space in buffer. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{add__to__buffer_8c_a847adfba1243e298046e9246193219da}{can\+\_\+fit\+\_\+in\+\_\+buffer}} (int len, c\+\_\+buffer\+\_\+t $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em Check if given data will fit in the buffer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{add__to__buffer_8c_a0bb425105b006fb027b3eac7f22e9db5}{add\+\_\+to\+\_\+buffer}} (char $\ast$str, c\+\_\+buffer\+\_\+t $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em Add data to the buffer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{add__to__buffer_8c_a0bb425105b006fb027b3eac7f22e9db5}\label{add__to__buffer_8c_a0bb425105b006fb027b3eac7f22e9db5}} 
+\index{add\+\_\+to\+\_\+buffer.\+c@{add\+\_\+to\+\_\+buffer.\+c}!add\+\_\+to\+\_\+buffer@{add\+\_\+to\+\_\+buffer}}
+\index{add\+\_\+to\+\_\+buffer@{add\+\_\+to\+\_\+buffer}!add\+\_\+to\+\_\+buffer.\+c@{add\+\_\+to\+\_\+buffer.\+c}}
+\subsubsection{\texorpdfstring{add\+\_\+to\+\_\+buffer()}{add\_to\_buffer()}}
+{\footnotesize\ttfamily int add\+\_\+to\+\_\+buffer (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+
+
+Add data to the buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+{\em buffer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+length of the added content, A\+D\+D\+\_\+\+F\+A\+IL on error 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file add\+\_\+to\+\_\+buffer.\+c.
+
+\mbox{\Hypertarget{add__to__buffer_8c_a847adfba1243e298046e9246193219da}\label{add__to__buffer_8c_a847adfba1243e298046e9246193219da}} 
+\index{add\+\_\+to\+\_\+buffer.\+c@{add\+\_\+to\+\_\+buffer.\+c}!can\+\_\+fit\+\_\+in\+\_\+buffer@{can\+\_\+fit\+\_\+in\+\_\+buffer}}
+\index{can\+\_\+fit\+\_\+in\+\_\+buffer@{can\+\_\+fit\+\_\+in\+\_\+buffer}!add\+\_\+to\+\_\+buffer.\+c@{add\+\_\+to\+\_\+buffer.\+c}}
+\subsubsection{\texorpdfstring{can\+\_\+fit\+\_\+in\+\_\+buffer()}{can\_fit\_in\_buffer()}}
+{\footnotesize\ttfamily bool can\+\_\+fit\+\_\+in\+\_\+buffer (\begin{DoxyParamCaption}\item[{int}]{len,  }\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+
+
+Check if given data will fit in the buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em len} & \\
+\hline
+{\em buffer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if small enough 
+\end{DoxyReturn}
+
+
+Definition at line 22 of file add\+\_\+to\+\_\+buffer.\+c.
+
+\mbox{\Hypertarget{add__to__buffer_8c_a3c9b92eafb4434110923ff3b435713b7}\label{add__to__buffer_8c_a3c9b92eafb4434110923ff3b435713b7}} 
+\index{add\+\_\+to\+\_\+buffer.\+c@{add\+\_\+to\+\_\+buffer.\+c}!get\+\_\+len\+\_\+left@{get\+\_\+len\+\_\+left}}
+\index{get\+\_\+len\+\_\+left@{get\+\_\+len\+\_\+left}!add\+\_\+to\+\_\+buffer.\+c@{add\+\_\+to\+\_\+buffer.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+len\+\_\+left()}{get\_len\_left()}}
+{\footnotesize\ttfamily int get\+\_\+len\+\_\+left (\begin{DoxyParamCaption}\item[{c\+\_\+buffer\+\_\+t $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+
+
+Get free space in buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+free space left 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file add\+\_\+to\+\_\+buffer.\+c.
+

@@ -1,0 +1,83 @@
+\hypertarget{set__player__command_8c}{}\section{server/game/update/set\+\_\+player\+\_\+command.c File Reference}
+\label{set__player__command_8c}\index{server/game/update/set\+\_\+player\+\_\+command.\+c@{server/game/update/set\+\_\+player\+\_\+command.\+c}}
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/game.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/log.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{set__player__command_8c_a3f658ceac9348de68d9a90aa7b294311}{send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players}} (player\+\_\+t $\ast$players)
+\begin{DoxyCompactList}\small\item\em Send a notification that an incantation has started to all clients. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{set__player__command_8c_a5e35c3d0aa42b33307bfb12078a31c30}{set\+\_\+incantation\+\_\+command}} (player\+\_\+t $\ast$player, buffer\+\_\+t $\ast$game\+\_\+log)
+\begin{DoxyCompactList}\small\item\em Check prerequisites and therefore call the actual incantation. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{set__player__command_8c_ae604b8744672a57ad14c562e2b394de0}{set\+\_\+command}} (char $\ast$cmd, player\+\_\+t $\ast$player, double f, buffer\+\_\+t $\ast$game\+\_\+log)
+\item 
+bool \mbox{\hyperlink{set__player__command_8c_aff32ef3bf727513d5bff4d876b60bb43}{set\+\_\+player\+\_\+command}} (player\+\_\+t $\ast$player, double freq, buffer\+\_\+t $\ast$game\+\_\+log)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{set__player__command_8c_a3f658ceac9348de68d9a90aa7b294311}\label{set__player__command_8c_a3f658ceac9348de68d9a90aa7b294311}} 
+\index{set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}!send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players@{send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players}}
+\index{send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players@{send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players}!set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}}
+\subsubsection{\texorpdfstring{send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players()}{send\_ritual\_start\_msg\_to\_players()}}
+{\footnotesize\ttfamily void send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{players }\end{DoxyParamCaption})}
+
+
+
+Send a notification that an incantation has started to all clients. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em players} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 18 of file set\+\_\+player\+\_\+command.\+c.
+
+\mbox{\Hypertarget{set__player__command_8c_ae604b8744672a57ad14c562e2b394de0}\label{set__player__command_8c_ae604b8744672a57ad14c562e2b394de0}} 
+\index{set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}!set\+\_\+command@{set\+\_\+command}}
+\index{set\+\_\+command@{set\+\_\+command}!set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}}
+\subsubsection{\texorpdfstring{set\+\_\+command()}{set\_command()}}
+{\footnotesize\ttfamily int set\+\_\+command (\begin{DoxyParamCaption}\item[{char $\ast$}]{cmd,  }\item[{player\+\_\+t $\ast$}]{player,  }\item[{double}]{f,  }\item[{buffer\+\_\+t $\ast$}]{game\+\_\+log }\end{DoxyParamCaption})}
+
+
+
+Definition at line 54 of file set\+\_\+player\+\_\+command.\+c.
+
+\mbox{\Hypertarget{set__player__command_8c_a5e35c3d0aa42b33307bfb12078a31c30}\label{set__player__command_8c_a5e35c3d0aa42b33307bfb12078a31c30}} 
+\index{set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}!set\+\_\+incantation\+\_\+command@{set\+\_\+incantation\+\_\+command}}
+\index{set\+\_\+incantation\+\_\+command@{set\+\_\+incantation\+\_\+command}!set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}}
+\subsubsection{\texorpdfstring{set\+\_\+incantation\+\_\+command()}{set\_incantation\_command()}}
+{\footnotesize\ttfamily int set\+\_\+incantation\+\_\+command (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player,  }\item[{buffer\+\_\+t $\ast$}]{game\+\_\+log }\end{DoxyParamCaption})}
+
+
+
+Check prerequisites and therefore call the actual incantation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em game\+\_\+log} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 35 of file set\+\_\+player\+\_\+command.\+c.
+
+\mbox{\Hypertarget{set__player__command_8c_aff32ef3bf727513d5bff4d876b60bb43}\label{set__player__command_8c_aff32ef3bf727513d5bff4d876b60bb43}} 
+\index{set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}!set\+\_\+player\+\_\+command@{set\+\_\+player\+\_\+command}}
+\index{set\+\_\+player\+\_\+command@{set\+\_\+player\+\_\+command}!set\+\_\+player\+\_\+command.\+c@{set\+\_\+player\+\_\+command.\+c}}
+\subsubsection{\texorpdfstring{set\+\_\+player\+\_\+command()}{set\_player\_command()}}
+{\footnotesize\ttfamily bool set\+\_\+player\+\_\+command (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player,  }\item[{double}]{freq,  }\item[{buffer\+\_\+t $\ast$}]{game\+\_\+log }\end{DoxyParamCaption})}
+
+
+
+Definition at line 70 of file set\+\_\+player\+\_\+command.\+c.
+

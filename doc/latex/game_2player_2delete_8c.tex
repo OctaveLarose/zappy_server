@@ -1,0 +1,125 @@
+\hypertarget{game_2player_2delete_8c}{}\section{server/game/player/delete.c File Reference}
+\label{game_2player_2delete_8c}\index{server/game/player/delete.\+c@{server/game/player/delete.\+c}}
+{\ttfamily \#include \char`\"{}game/player.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{game_2player_2delete_8c_add80ae009660d5cfc3f5c2ca164f4504}{remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list}} (player\+\_\+t $\ast$player, player\+\_\+t $\ast$$\ast$list)
+\begin{DoxyCompactList}\small\item\em Remove the given player from the given linked list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_2player_2delete_8c_acc91e10206c5b3ed55053f828649003f}{free\+\_\+player}} (player\+\_\+t $\ast$player)
+\begin{DoxyCompactList}\small\item\em Free the memory allocated for the given player. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_2player_2delete_8c_a176e5990c455cabcee23f7079ac2a862}{free\+\_\+all\+\_\+players}} (player\+\_\+t $\ast$player)
+\begin{DoxyCompactList}\small\item\em Delete a player from the game (remove and free), send him a \char`\"{}dead\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_2player_2delete_8c_a21777be6af3ac771c66eab8ddb98237a}{remove\+\_\+player}} (player\+\_\+t $\ast$$\ast$player, player\+\_\+t $\ast$$\ast$global\+\_\+list)
+\begin{DoxyCompactList}\small\item\em Remove a player from its tile and team and remove it from global player linked list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_2player_2delete_8c_a88b948a3ef578083a623bb85cb8d0e88}{delete\+\_\+player}} (player\+\_\+t $\ast$$\ast$player, player\+\_\+t $\ast$$\ast$global\+\_\+list)
+\begin{DoxyCompactList}\small\item\em Call remove player, send a message about its death to clients then free the memory allocated for it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{game_2player_2delete_8c_a88b948a3ef578083a623bb85cb8d0e88}\label{game_2player_2delete_8c_a88b948a3ef578083a623bb85cb8d0e88}} 
+\index{game/player/delete.\+c@{game/player/delete.\+c}!delete\+\_\+player@{delete\+\_\+player}}
+\index{delete\+\_\+player@{delete\+\_\+player}!game/player/delete.\+c@{game/player/delete.\+c}}
+\subsubsection{\texorpdfstring{delete\+\_\+player()}{delete\_player()}}
+{\footnotesize\ttfamily void delete\+\_\+player (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$$\ast$}]{player,  }\item[{player\+\_\+t $\ast$$\ast$}]{global\+\_\+list }\end{DoxyParamCaption})}
+
+
+
+Call remove player, send a message about its death to clients then free the memory allocated for it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em global\+\_\+list} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 79 of file delete.\+c.
+
+\mbox{\Hypertarget{game_2player_2delete_8c_a176e5990c455cabcee23f7079ac2a862}\label{game_2player_2delete_8c_a176e5990c455cabcee23f7079ac2a862}} 
+\index{game/player/delete.\+c@{game/player/delete.\+c}!free\+\_\+all\+\_\+players@{free\+\_\+all\+\_\+players}}
+\index{free\+\_\+all\+\_\+players@{free\+\_\+all\+\_\+players}!game/player/delete.\+c@{game/player/delete.\+c}}
+\subsubsection{\texorpdfstring{free\+\_\+all\+\_\+players()}{free\_all\_players()}}
+{\footnotesize\ttfamily void free\+\_\+all\+\_\+players (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player }\end{DoxyParamCaption})}
+
+
+
+Delete a player from the game (remove and free), send him a \char`\"{}dead\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em global\+\_\+list} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 50 of file delete.\+c.
+
+\mbox{\Hypertarget{game_2player_2delete_8c_acc91e10206c5b3ed55053f828649003f}\label{game_2player_2delete_8c_acc91e10206c5b3ed55053f828649003f}} 
+\index{game/player/delete.\+c@{game/player/delete.\+c}!free\+\_\+player@{free\+\_\+player}}
+\index{free\+\_\+player@{free\+\_\+player}!game/player/delete.\+c@{game/player/delete.\+c}}
+\subsubsection{\texorpdfstring{free\+\_\+player()}{free\_player()}}
+{\footnotesize\ttfamily void free\+\_\+player (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player }\end{DoxyParamCaption})}
+
+
+
+Free the memory allocated for the given player. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file delete.\+c.
+
+\mbox{\Hypertarget{game_2player_2delete_8c_a21777be6af3ac771c66eab8ddb98237a}\label{game_2player_2delete_8c_a21777be6af3ac771c66eab8ddb98237a}} 
+\index{game/player/delete.\+c@{game/player/delete.\+c}!remove\+\_\+player@{remove\+\_\+player}}
+\index{remove\+\_\+player@{remove\+\_\+player}!game/player/delete.\+c@{game/player/delete.\+c}}
+\subsubsection{\texorpdfstring{remove\+\_\+player()}{remove\_player()}}
+{\footnotesize\ttfamily void remove\+\_\+player (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$$\ast$}]{player,  }\item[{player\+\_\+t $\ast$$\ast$}]{global\+\_\+list }\end{DoxyParamCaption})}
+
+
+
+Remove a player from its tile and team and remove it from global player linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em global\+\_\+list} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 66 of file delete.\+c.
+
+\mbox{\Hypertarget{game_2player_2delete_8c_add80ae009660d5cfc3f5c2ca164f4504}\label{game_2player_2delete_8c_add80ae009660d5cfc3f5c2ca164f4504}} 
+\index{game/player/delete.\+c@{game/player/delete.\+c}!remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list@{remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list}}
+\index{remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list@{remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list}!game/player/delete.\+c@{game/player/delete.\+c}}
+\subsubsection{\texorpdfstring{remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list()}{remove\_player\_from\_global\_player\_list()}}
+{\footnotesize\ttfamily bool remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list (\begin{DoxyParamCaption}\item[{player\+\_\+t $\ast$}]{player,  }\item[{player\+\_\+t $\ast$$\ast$}]{list }\end{DoxyParamCaption})}
+
+
+
+Remove the given player from the given linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em list} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if removed, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 15 of file delete.\+c.
+

@@ -1,0 +1,818 @@
+\begin{theindex}
+
+  \item {accept.\+c}
+    \subitem {accept\+\_\+client}, \hyperpage{75}
+    \subitem {get\+\_\+socket\+\_\+client}, \hyperpage{76}
+  \item {accept\+\_\+client}
+    \subitem {accept.\+c}, \hyperpage{75}
+  \item {add\+\_\+player.\+c}
+    \subitem {append\+\_\+to\+\_\+team\+\_\+player\+\_\+list}, 
+		\hyperpage{56}
+  \item {add\+\_\+player\+\_\+to\+\_\+tile.\+c}
+    \subitem {append\+\_\+to\+\_\+tile\+\_\+player\+\_\+list}, 
+		\hyperpage{34}
+  \item {add\+\_\+resource\+\_\+to\+\_\+inventory}
+    \subitem {transfer\+\_\+item.\+c}, \hyperpage{26}
+  \item {add\+\_\+str\+\_\+to\+\_\+buffer}
+    \subitem {buffer.\+c}, \hyperpage{92}
+  \item {add\+\_\+str\+\_\+to\+\_\+command}
+    \subitem {parse\+\_\+command.\+c}, \hyperpage{82}
+  \item {add\+\_\+to\+\_\+buffer}
+    \subitem {add\+\_\+to\+\_\+buffer.\+c}, \hyperpage{3}
+  \item {add\+\_\+to\+\_\+buffer.\+c}
+    \subitem {add\+\_\+to\+\_\+buffer}, \hyperpage{3}
+    \subitem {can\+\_\+fit\+\_\+in\+\_\+buffer}, \hyperpage{4}
+    \subitem {get\+\_\+len\+\_\+left}, \hyperpage{4}
+  \item {add\+\_\+to\+\_\+init\+\_\+graph\+\_\+response}
+    \subitem {add\+\_\+to\+\_\+init\+\_\+graph\+\_\+response.\+c}, 
+		\hyperpage{84}
+  \item {add\+\_\+to\+\_\+init\+\_\+graph\+\_\+response.\+c}
+    \subitem {add\+\_\+to\+\_\+init\+\_\+graph\+\_\+response}, 
+		\hyperpage{84}
+  \item {append.\+c}
+    \subitem {append\+\_\+to\+\_\+global\+\_\+player\+\_\+list}, 
+		\hyperpage{49}
+  \item {append\+\_\+to\+\_\+client\+\_\+list}
+    \subitem {network/client/add.\+c}, \hyperpage{48}
+  \item {append\+\_\+to\+\_\+global\+\_\+player\+\_\+list}
+    \subitem {append.\+c}, \hyperpage{49}
+  \item {append\+\_\+to\+\_\+team\+\_\+player\+\_\+list}
+    \subitem {add\+\_\+player.\+c}, \hyperpage{56}
+  \item {append\+\_\+to\+\_\+tile\+\_\+player\+\_\+list}
+    \subitem {add\+\_\+player\+\_\+to\+\_\+tile.\+c}, \hyperpage{34}
+  \item {array\+\_\+tools.\+c}
+    \subitem {get\+\_\+array\+\_\+size}, \hyperpage{91}
+
+  \indexspace
+
+  \item {broadcast.\+c}
+    \subitem {cmd\+\_\+broadcast}, \hyperpage{10}
+    \subitem {convert\+\_\+angle\+\_\+to\+\_\+num}, \hyperpage{10}
+    \subitem {get\+\_\+angle}, \hyperpage{11}
+    \subitem {get\+\_\+origin}, \hyperpage{11}
+    \subitem {get\+\_\+traj}, \hyperpage{11}
+  \item {buffer.\+c}
+    \subitem {add\+\_\+str\+\_\+to\+\_\+buffer}, \hyperpage{92}
+    \subitem {reset\+\_\+buffer}, \hyperpage{92}
+
+  \indexspace
+
+  \item {can\+\_\+fit\+\_\+in\+\_\+buffer}
+    \subitem {add\+\_\+to\+\_\+buffer.\+c}, \hyperpage{4}
+  \item {check.\+c}
+    \subitem {has\+\_\+pending\+\_\+commands}, \hyperpage{49}
+  \item {check\+\_\+arg\+\_\+holder}
+    \subitem {get\+\_\+args.\+c}, \hyperpage{63}
+  \item {check\+\_\+for\+\_\+free\+\_\+player}
+    \subitem {give\+\_\+player\+\_\+to\+\_\+client.\+c}, \hyperpage{78}
+  \item {check\+\_\+for\+\_\+timeouts}
+    \subitem {check\+\_\+for\+\_\+timeouts.\+c}, \hyperpage{7}
+  \item {check\+\_\+for\+\_\+timeouts.\+c}
+    \subitem {check\+\_\+for\+\_\+timeouts}, \hyperpage{7}
+  \item {check\+\_\+if\+\_\+game\+\_\+won}
+    \subitem {check\+\_\+if\+\_\+game\+\_\+won.\+c}, \hyperpage{58}
+  \item {check\+\_\+if\+\_\+game\+\_\+won.\+c}
+    \subitem {check\+\_\+if\+\_\+game\+\_\+won}, \hyperpage{58}
+  \item {check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met}
+    \subitem {incantation.\+c}, \hyperpage{16}
+  \item {check\+\_\+ritual\+\_\+resources}
+    \subitem {check\+\_\+ritual\+\_\+resources.\+c}, \hyperpage{25}
+  \item {check\+\_\+ritual\+\_\+resources.\+c}
+    \subitem {check\+\_\+ritual\+\_\+resources}, \hyperpage{25}
+  \item {clock\+\_\+tick}
+    \subitem {clock\+\_\+tick.\+c}, \hyperpage{8}
+  \item {clock\+\_\+tick.\+c}
+    \subitem {clock\+\_\+tick}, \hyperpage{8}
+    \subitem {clock\+\_\+tick\+\_\+clients}, \hyperpage{8}
+    \subitem {clock\+\_\+tick\+\_\+player\+\_\+ttl}, \hyperpage{8}
+    \subitem {clock\+\_\+tick\+\_\+players}, \hyperpage{9}
+  \item {clock\+\_\+tick\+\_\+clients}
+    \subitem {clock\+\_\+tick.\+c}, \hyperpage{8}
+  \item {clock\+\_\+tick\+\_\+player\+\_\+ttl}
+    \subitem {clock\+\_\+tick.\+c}, \hyperpage{8}
+  \item {clock\+\_\+tick\+\_\+players}
+    \subitem {clock\+\_\+tick.\+c}, \hyperpage{9}
+  \item {cmd\+\_\+broadcast}
+    \subitem {broadcast.\+c}, \hyperpage{10}
+  \item {cmd\+\_\+connect\+\_\+nbr}
+    \subitem {connect\+\_\+nbr.\+c}, \hyperpage{13}
+  \item {cmd\+\_\+eject}
+    \subitem {eject.\+c}, \hyperpage{13}
+  \item {cmd\+\_\+fork}
+    \subitem {fork.\+c}, \hyperpage{15}
+  \item {cmd\+\_\+forward}
+    \subitem {move.\+c}, \hyperpage{22}
+  \item {cmd\+\_\+incantation}
+    \subitem {incantation.\+c}, \hyperpage{16}
+  \item {cmd\+\_\+inventory}
+    \subitem {inventory.\+c}, \hyperpage{18}
+  \item {cmd\+\_\+left}
+    \subitem {move.\+c}, \hyperpage{22}
+  \item {cmd\+\_\+look}
+    \subitem {look.\+c}, \hyperpage{19}
+  \item {cmd\+\_\+right}
+    \subitem {move.\+c}, \hyperpage{22}
+  \item {cmd\+\_\+set}
+    \subitem {take\+\_\+set.\+c}, \hyperpage{23}
+  \item {cmd\+\_\+take}
+    \subitem {take\+\_\+set.\+c}, \hyperpage{24}
+  \item {command\+\_\+list}
+    \subitem {command\+\_\+list.\+c}, \hyperpage{12}
+  \item {command\+\_\+list.\+c}
+    \subitem {command\+\_\+list}, \hyperpage{12}
+  \item {connect\+\_\+nbr.\+c}
+    \subitem {cmd\+\_\+connect\+\_\+nbr}, \hyperpage{13}
+  \item {convert\+\_\+angle\+\_\+to\+\_\+num}
+    \subitem {broadcast.\+c}, \hyperpage{10}
+  \item {create.\+c}
+    \subitem {create\+\_\+client}, \hyperpage{76}
+  \item {create\+\_\+client}
+    \subitem {create.\+c}, \hyperpage{76}
+  \item {create\+\_\+player}
+    \subitem {game/player/add.\+c}, \hyperpage{46}
+
+  \indexspace
+
+  \item {debug\+\_\+no\+\_\+reuse}
+    \subitem {server.\+c}, \hyperpage{72}
+  \item {del\+\_\+resource\+\_\+from\+\_\+inventory}
+    \subitem {transfer\+\_\+item.\+c}, \hyperpage{27}
+  \item {delete\+\_\+client}
+    \subitem {network/client/delete.\+c}, \hyperpage{52}
+  \item {delete\+\_\+player}
+    \subitem {game/player/delete.\+c}, \hyperpage{50}
+  \item {dir\+\_\+log}
+    \subitem {move\+\_\+log.\+c}, \hyperpage{30}
+  \item {dir\+\_\+to\+\_\+str}
+    \subitem {eject.\+c}, \hyperpage{14}
+  \item {disconnect\+\_\+client}
+    \subitem {network/client/delete.\+c}, \hyperpage{53}
+
+  \indexspace
+
+  \item {eject.\+c}
+    \subitem {cmd\+\_\+eject}, \hyperpage{13}
+    \subitem {dir\+\_\+to\+\_\+str}, \hyperpage{14}
+    \subitem {init\+\_\+eject\+\_\+msg}, \hyperpage{14}
+  \item {error}
+    \subitem {int.\+c}, \hyperpage{93}
+  \item {error\+\_\+close}
+    \subitem {int.\+c}, \hyperpage{93}
+  \item {error\+\_\+close\+\_\+ptr}
+    \subitem {ptr.\+c}, \hyperpage{94}
+  \item {error\+\_\+print}
+    \subitem {print.\+c}, \hyperpage{94}
+  \item {error\+\_\+print\+\_\+ptr}
+    \subitem {print.\+c}, \hyperpage{94}
+  \item {error\+\_\+ptr}
+    \subitem {ptr.\+c}, \hyperpage{94}
+  \item {execute\+\_\+player\+\_\+command}
+    \subitem {execute\+\_\+player\+\_\+commands.\+c}, \hyperpage{59}
+  \item {execute\+\_\+player\+\_\+commands.\+c}
+    \subitem {execute\+\_\+player\+\_\+command}, \hyperpage{59}
+    \subitem {fill\+\_\+response\+\_\+to\+\_\+client}, \hyperpage{59}
+    \subitem {strcmp\+\_\+until\+\_\+space}, \hyperpage{60}
+
+  \indexspace
+
+  \item {fill\+\_\+resp\+\_\+look}
+    \subitem {look.\+c}, \hyperpage{19}
+  \item {fill\+\_\+resp\+\_\+look\+\_\+row}
+    \subitem {look.\+c}, \hyperpage{20}
+  \item {fill\+\_\+response\+\_\+to\+\_\+client}
+    \subitem {execute\+\_\+player\+\_\+commands.\+c}, \hyperpage{59}
+  \item {fork.\+c}
+    \subitem {cmd\+\_\+fork}, \hyperpage{15}
+  \item {forward\+\_\+log}
+    \subitem {move\+\_\+log.\+c}, \hyperpage{31}
+  \item {free\+\_\+all\+\_\+clients}
+    \subitem {network/client/delete.\+c}, \hyperpage{53}
+  \item {free\+\_\+all\+\_\+players}
+    \subitem {game/player/delete.\+c}, \hyperpage{51}
+  \item {free\+\_\+arg\+\_\+holder}
+    \subitem {get\+\_\+args.\+c}, \hyperpage{64}
+  \item {free\+\_\+client}
+    \subitem {network/client/delete.\+c}, \hyperpage{53}
+  \item {free\+\_\+map}
+    \subitem {world.\+c}, \hyperpage{71}
+  \item {free\+\_\+player}
+    \subitem {game/player/delete.\+c}, \hyperpage{51}
+  \item {free\+\_\+team\+\_\+array}
+    \subitem {teams.\+c}, \hyperpage{69}
+  \item {free\+\_\+zappy}
+    \subitem {zappy.\+c}, \hyperpage{74}
+
+  \indexspace
+
+  \item {game.\+c}
+    \subitem {init\+\_\+game}, \hyperpage{67}
+  \item {game/player/add.\+c}
+    \subitem {create\+\_\+player}, \hyperpage{46}
+    \subitem {init\+\_\+player\+\_\+tile}, \hyperpage{47}
+    \subitem {make\+\_\+new\+\_\+player}, \hyperpage{47}
+  \item {game/player/delete.\+c}
+    \subitem {delete\+\_\+player}, \hyperpage{50}
+    \subitem {free\+\_\+all\+\_\+players}, \hyperpage{51}
+    \subitem {free\+\_\+player}, \hyperpage{51}
+    \subitem {remove\+\_\+player}, \hyperpage{51}
+    \subitem {remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list}, 
+		\hyperpage{52}
+  \item {game/player/get.\+c}
+    \subitem {get\+\_\+last\+\_\+global\+\_\+player}, \hyperpage{54}
+    \subitem {get\+\_\+nbr\+\_\+players\+\_\+global}, \hyperpage{54}
+  \item {get\+\_\+angle}
+    \subitem {broadcast.\+c}, \hyperpage{11}
+  \item {get\+\_\+args}
+    \subitem {get\+\_\+args.\+c}, \hyperpage{64}
+  \item {get\+\_\+args.\+c}
+    \subitem {check\+\_\+arg\+\_\+holder}, \hyperpage{63}
+    \subitem {free\+\_\+arg\+\_\+holder}, \hyperpage{64}
+    \subitem {get\+\_\+args}, \hyperpage{64}
+    \subitem {get\+\_\+args\+\_\+loop}, \hyperpage{64}
+  \item {get\+\_\+args\+\_\+loop}
+    \subitem {get\+\_\+args.\+c}, \hyperpage{64}
+  \item {get\+\_\+array\+\_\+size}
+    \subitem {array\+\_\+tools.\+c}, \hyperpage{91}
+  \item {get\+\_\+client\+\_\+by\+\_\+fd}
+    \subitem {network/client/get.\+c}, \hyperpage{55}
+  \item {get\+\_\+dir.\+c}
+    \subitem {get\+\_\+dir\+\_\+to\+\_\+left}, \hyperpage{34}
+    \subitem {get\+\_\+dir\+\_\+to\+\_\+right}, \hyperpage{35}
+  \item {get\+\_\+dir\+\_\+to\+\_\+left}
+    \subitem {get\+\_\+dir.\+c}, \hyperpage{34}
+  \item {get\+\_\+dir\+\_\+to\+\_\+right}
+    \subitem {get\+\_\+dir.\+c}, \hyperpage{35}
+  \item {get\+\_\+last\+\_\+client}
+    \subitem {network/client/get.\+c}, \hyperpage{55}
+  \item {get\+\_\+last\+\_\+global\+\_\+player}
+    \subitem {game/player/get.\+c}, \hyperpage{54}
+  \item {get\+\_\+last\+\_\+team\+\_\+player}
+    \subitem {team/get\+\_\+player.\+c}, \hyperpage{39}
+  \item {get\+\_\+last\+\_\+tile\+\_\+player}
+    \subitem {map/get\+\_\+player.\+c}, \hyperpage{38}
+  \item {get\+\_\+len\+\_\+left}
+    \subitem {add\+\_\+to\+\_\+buffer.\+c}, \hyperpage{4}
+  \item {get\+\_\+nbr\+\_\+players\+\_\+global}
+    \subitem {game/player/get.\+c}, \hyperpage{54}
+  \item {get\+\_\+nbr\+\_\+players\+\_\+of\+\_\+lvl\+\_\+on\+\_\+tile}
+    \subitem {map/get\+\_\+nbr\+\_\+players.\+c}, \hyperpage{35}
+  \item {get\+\_\+nbr\+\_\+players\+\_\+on\+\_\+tile}
+    \subitem {map/get\+\_\+nbr\+\_\+players.\+c}, \hyperpage{36}
+  \item {get\+\_\+origin}
+    \subitem {broadcast.\+c}, \hyperpage{11}
+  \item {get\+\_\+random\+\_\+resource}
+    \subitem {get\+\_\+resource.\+c}, \hyperpage{25}
+  \item {get\+\_\+random\+\_\+tile}
+    \subitem {get\+\_\+tile.\+c}, \hyperpage{39}
+  \item {get\+\_\+resource.\+c}
+    \subitem {get\+\_\+random\+\_\+resource}, \hyperpage{25}
+    \subitem {get\+\_\+resource\+\_\+from\+\_\+str}, \hyperpage{25}
+  \item {get\+\_\+resource\+\_\+from\+\_\+str}
+    \subitem {get\+\_\+resource.\+c}, \hyperpage{25}
+  \item {get\+\_\+socket\+\_\+client}
+    \subitem {accept.\+c}, \hyperpage{76}
+  \item {get\+\_\+team}
+    \subitem {get\+\_\+team.\+c}, \hyperpage{57}
+  \item {get\+\_\+team.\+c}
+    \subitem {get\+\_\+team}, \hyperpage{57}
+  \item {get\+\_\+team\+\_\+nbr\+\_\+players}
+    \subitem {team/get\+\_\+nbr\+\_\+players.\+c}, \hyperpage{37}
+  \item {get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free}
+    \subitem {team/get\+\_\+nbr\+\_\+players.\+c}, \hyperpage{37}
+  \item {get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free}
+    \subitem {team/get\+\_\+nbr\+\_\+players.\+c}, \hyperpage{37}
+  \item {get\+\_\+tile}
+    \subitem {get\+\_\+tile.\+c}, \hyperpage{40}
+  \item {get\+\_\+tile.\+c}
+    \subitem {get\+\_\+random\+\_\+tile}, \hyperpage{39}
+    \subitem {get\+\_\+tile}, \hyperpage{40}
+    \subitem {get\+\_\+tile\+\_\+in\+\_\+dir}, \hyperpage{40}
+  \item {get\+\_\+tile\+\_\+in\+\_\+dir}
+    \subitem {get\+\_\+tile.\+c}, \hyperpage{40}
+  \item {get\+\_\+traj}
+    \subitem {broadcast.\+c}, \hyperpage{11}
+  \item {give\+\_\+player\+\_\+to\+\_\+client}
+    \subitem {give\+\_\+player\+\_\+to\+\_\+client.\+c}, \hyperpage{78}
+  \item {give\+\_\+player\+\_\+to\+\_\+client.\+c}
+    \subitem {check\+\_\+for\+\_\+free\+\_\+player}, \hyperpage{78}
+    \subitem {give\+\_\+player\+\_\+to\+\_\+client}, \hyperpage{78}
+  \item {give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown}
+    \subitem {handle\+\_\+client.\+c}, \hyperpage{79}
+
+  \indexspace
+
+  \item {handle\+\_\+client}
+    \subitem {handle\+\_\+client.\+c}, \hyperpage{80}
+  \item {handle\+\_\+client.\+c}
+    \subitem {give\+\_\+player\+\_\+to\+\_\+client\+\_\+unknown}, 
+		\hyperpage{79}
+    \subitem {handle\+\_\+client}, \hyperpage{80}
+    \subitem {handle\+\_\+client\+\_\+ai}, \hyperpage{80}
+    \subitem {handle\+\_\+client\+\_\+graphic}, \hyperpage{81}
+    \subitem {handle\+\_\+client\+\_\+unknown}, \hyperpage{81}
+  \item {handle\+\_\+client\+\_\+ai}
+    \subitem {handle\+\_\+client.\+c}, \hyperpage{80}
+  \item {handle\+\_\+client\+\_\+ai\+\_\+wfds}
+    \subitem {manage\+\_\+wfds\+\_\+ai.\+c}, \hyperpage{88}
+  \item {handle\+\_\+client\+\_\+graph\+\_\+wfds}
+    \subitem {manage\+\_\+wfds\+\_\+graph.\+c}, \hyperpage{89}
+  \item {handle\+\_\+client\+\_\+graphic}
+    \subitem {handle\+\_\+client.\+c}, \hyperpage{81}
+  \item {handle\+\_\+client\+\_\+unknown}
+    \subitem {handle\+\_\+client.\+c}, \hyperpage{81}
+  \item {handle\+\_\+client\+\_\+wfds}
+    \subitem {manage\+\_\+wfds.\+c}, \hyperpage{87}
+  \item {handle\+\_\+new\+\_\+connection}
+    \subitem {manage\+\_\+rfds.\+c}, \hyperpage{82}
+  \item {handle\+\_\+opt\+\_\+c}
+    \subitem {options\+\_\+func.\+c}, \hyperpage{65}
+  \item {handle\+\_\+opt\+\_\+f}
+    \subitem {options\+\_\+func.\+c}, \hyperpage{65}
+  \item {handle\+\_\+opt\+\_\+n}
+    \subitem {options\+\_\+names\+\_\+func.\+c}, \hyperpage{67}
+  \item {handle\+\_\+opt\+\_\+p}
+    \subitem {options\+\_\+func.\+c}, \hyperpage{66}
+  \item {handle\+\_\+opt\+\_\+x}
+    \subitem {options\+\_\+func.\+c}, \hyperpage{66}
+  \item {handle\+\_\+opt\+\_\+y}
+    \subitem {options\+\_\+func.\+c}, \hyperpage{66}
+  \item {handle\+\_\+player\+\_\+command}
+    \subitem {update\+\_\+game.\+c}, \hyperpage{62}
+  \item {handle\+\_\+players}
+    \subitem {update\+\_\+game.\+c}, \hyperpage{62}
+  \item {has\+\_\+command}
+    \subitem {has\+\_\+command.\+c}, \hyperpage{5}
+  \item {has\+\_\+command.\+c}
+    \subitem {has\+\_\+command}, \hyperpage{5}
+  \item {has\+\_\+pending\+\_\+commands}
+    \subitem {check.\+c}, \hyperpage{49}
+  \item {hatch\+\_\+log}
+    \subitem {hatch\+\_\+log.\+c}, \hyperpage{28}
+  \item {hatch\+\_\+log.\+c}
+    \subitem {hatch\+\_\+log}, \hyperpage{28}
+
+  \indexspace
+
+  \item {if\+\_\+not\+\_\+set\+\_\+wfds}
+    \subitem {set\+\_\+wfds.\+c}, \hyperpage{90}
+  \item {if\+\_\+set\+\_\+wfds}
+    \subitem {set\+\_\+wfds.\+c}, \hyperpage{90}
+  \item {incantation.\+c}
+    \subitem {check\+\_\+if\+\_\+ritual\+\_\+req\+\_\+met}, 
+		\hyperpage{16}
+    \subitem {cmd\+\_\+incantation}, \hyperpage{16}
+    \subitem {ritual\+\_\+data}, \hyperpage{17}
+    \subitem {send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players}, 
+		\hyperpage{16}
+    \subitem {upgrade\+\_\+ritual\+\_\+players}, \hyperpage{17}
+  \item {incantation\+\_\+end\+\_\+log}
+    \subitem {incantation\+\_\+log.\+c}, \hyperpage{29}
+  \item {incantation\+\_\+log.\+c}
+    \subitem {incantation\+\_\+end\+\_\+log}, \hyperpage{29}
+    \subitem {incantation\+\_\+start\+\_\+log}, \hyperpage{29}
+  \item {incantation\+\_\+start\+\_\+log}
+    \subitem {incantation\+\_\+log.\+c}, \hyperpage{29}
+  \item {init\+\_\+buffer.\+c}
+    \subitem {init\+\_\+c\+\_\+buffer}, \hyperpage{5}
+  \item {init\+\_\+c\+\_\+buffer}
+    \subitem {init\+\_\+buffer.\+c}, \hyperpage{5}
+  \item {init\+\_\+eject\+\_\+msg}
+    \subitem {eject.\+c}, \hyperpage{14}
+  \item {init\+\_\+game}
+    \subitem {game.\+c}, \hyperpage{67}
+  \item {init\+\_\+player\+\_\+tile}
+    \subitem {game/player/add.\+c}, \hyperpage{47}
+  \item {init\+\_\+random\+\_\+pos}
+    \subitem {spawn\+\_\+food.\+c}, \hyperpage{45}
+  \item {init\+\_\+select}
+    \subitem {server.\+c}, \hyperpage{72}
+  \item {init\+\_\+serv\+\_\+info\+\_\+buffer}
+    \subitem {manage\+\_\+wfds\+\_\+ai.\+c}, \hyperpage{88}
+  \item {init\+\_\+server}
+    \subitem {server.\+c}, \hyperpage{73}
+  \item {init\+\_\+sock\+\_\+address}
+    \subitem {server.\+c}, \hyperpage{73}
+  \item {init\+\_\+team}
+    \subitem {teams.\+c}, \hyperpage{70}
+  \item {init\+\_\+teams}
+    \subitem {teams.\+c}, \hyperpage{70}
+  \item {init\+\_\+world}
+    \subitem {world.\+c}, \hyperpage{71}
+  \item {init\+\_\+zappy}
+    \subitem {zappy.\+c}, \hyperpage{74}
+  \item {int.\+c}
+    \subitem {error}, \hyperpage{93}
+    \subitem {error\+\_\+close}, \hyperpage{93}
+  \item {inventory.\+c}
+    \subitem {cmd\+\_\+inventory}, \hyperpage{18}
+  \item {is\+\_\+arg\+\_\+option}
+    \subitem {options\+\_\+names\+\_\+func.\+c}, \hyperpage{67}
+  \item {is\+\_\+buf\+\_\+readable}
+    \subitem {read\+\_\+from\+\_\+buffer.\+c}, \hyperpage{6}
+
+  \indexspace
+
+  \item {kill\+\_\+log}
+    \subitem {kill\+\_\+log.\+c}, \hyperpage{30}
+  \item {kill\+\_\+log.\+c}
+    \subitem {kill\+\_\+log}, \hyperpage{30}
+
+  \indexspace
+
+  \item {link\+\_\+tile}
+    \subitem {link\+\_\+tiles.\+c}, \hyperpage{68}
+  \item {link\+\_\+tiles}
+    \subitem {link\+\_\+tiles.\+c}, \hyperpage{69}
+  \item {link\+\_\+tiles.\+c}
+    \subitem {link\+\_\+tile}, \hyperpage{68}
+    \subitem {link\+\_\+tiles}, \hyperpage{69}
+  \item {look.\+c}
+    \subitem {cmd\+\_\+look}, \hyperpage{19}
+    \subitem {fill\+\_\+resp\+\_\+look}, \hyperpage{19}
+    \subitem {fill\+\_\+resp\+\_\+look\+\_\+row}, \hyperpage{20}
+  \item {look\+\_\+print}
+    \subitem {look\+\_\+tile.\+c}, \hyperpage{20}
+  \item {look\+\_\+print\+\_\+player}
+    \subitem {look\+\_\+tile.\+c}, \hyperpage{20}
+  \item {look\+\_\+tile}
+    \subitem {look\+\_\+tile.\+c}, \hyperpage{21}
+  \item {look\+\_\+tile.\+c}
+    \subitem {look\+\_\+print}, \hyperpage{20}
+    \subitem {look\+\_\+print\+\_\+player}, \hyperpage{20}
+    \subitem {look\+\_\+tile}, \hyperpage{21}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\+c}, \hyperpage{75}
+  \item {main.\+c}
+    \subitem {main}, \hyperpage{75}
+    \subitem {zappy}, \hyperpage{75}
+  \item {make\+\_\+new\+\_\+player}
+    \subitem {game/player/add.\+c}, \hyperpage{47}
+  \item {manage\+\_\+rfds}
+    \subitem {manage\+\_\+rfds.\+c}, \hyperpage{82}
+  \item {manage\+\_\+rfds.\+c}
+    \subitem {handle\+\_\+new\+\_\+connection}, \hyperpage{82}
+    \subitem {manage\+\_\+rfds}, \hyperpage{82}
+  \item {manage\+\_\+wfds}
+    \subitem {manage\+\_\+wfds.\+c}, \hyperpage{87}
+  \item {manage\+\_\+wfds.\+c}
+    \subitem {handle\+\_\+client\+\_\+wfds}, \hyperpage{87}
+    \subitem {manage\+\_\+wfds}, \hyperpage{87}
+  \item {manage\+\_\+wfds\+\_\+ai.\+c}
+    \subitem {handle\+\_\+client\+\_\+ai\+\_\+wfds}, \hyperpage{88}
+    \subitem {init\+\_\+serv\+\_\+info\+\_\+buffer}, \hyperpage{88}
+  \item {manage\+\_\+wfds\+\_\+graph.\+c}
+    \subitem {handle\+\_\+client\+\_\+graph\+\_\+wfds}, \hyperpage{89}
+  \item {map/get\+\_\+nbr\+\_\+players.\+c}
+    \subitem {get\+\_\+nbr\+\_\+players\+\_\+of\+\_\+lvl\+\_\+on\+\_\+tile}, 
+		\hyperpage{35}
+    \subitem {get\+\_\+nbr\+\_\+players\+\_\+on\+\_\+tile}, 
+		\hyperpage{36}
+  \item {map/get\+\_\+player.\+c}
+    \subitem {get\+\_\+last\+\_\+tile\+\_\+player}, \hyperpage{38}
+  \item {move.\+c}
+    \subitem {cmd\+\_\+forward}, \hyperpage{22}
+    \subitem {cmd\+\_\+left}, \hyperpage{22}
+    \subitem {cmd\+\_\+right}, \hyperpage{22}
+  \item {move\+\_\+log.\+c}
+    \subitem {dir\+\_\+log}, \hyperpage{30}
+    \subitem {forward\+\_\+log}, \hyperpage{31}
+  \item {move\+\_\+player\+\_\+in\+\_\+dir}
+    \subitem {move\+\_\+player\+\_\+to\+\_\+tile.\+c}, \hyperpage{41}
+  \item {move\+\_\+player\+\_\+to\+\_\+tile}
+    \subitem {move\+\_\+player\+\_\+to\+\_\+tile.\+c}, \hyperpage{41}
+  \item {move\+\_\+player\+\_\+to\+\_\+tile.\+c}
+    \subitem {move\+\_\+player\+\_\+in\+\_\+dir}, \hyperpage{41}
+    \subitem {move\+\_\+player\+\_\+to\+\_\+tile}, \hyperpage{41}
+
+  \indexspace
+
+  \item {network/client/add.\+c}
+    \subitem {append\+\_\+to\+\_\+client\+\_\+list}, \hyperpage{48}
+  \item {network/client/delete.\+c}
+    \subitem {delete\+\_\+client}, \hyperpage{52}
+    \subitem {disconnect\+\_\+client}, \hyperpage{53}
+    \subitem {free\+\_\+all\+\_\+clients}, \hyperpage{53}
+    \subitem {free\+\_\+client}, \hyperpage{53}
+  \item {network/client/get.\+c}
+    \subitem {get\+\_\+client\+\_\+by\+\_\+fd}, \hyperpage{55}
+    \subitem {get\+\_\+last\+\_\+client}, \hyperpage{55}
+
+  \indexspace
+
+  \item {options\+\_\+func.\+c}
+    \subitem {handle\+\_\+opt\+\_\+c}, \hyperpage{65}
+    \subitem {handle\+\_\+opt\+\_\+f}, \hyperpage{65}
+    \subitem {handle\+\_\+opt\+\_\+p}, \hyperpage{66}
+    \subitem {handle\+\_\+opt\+\_\+x}, \hyperpage{66}
+    \subitem {handle\+\_\+opt\+\_\+y}, \hyperpage{66}
+  \item {options\+\_\+names\+\_\+func.\+c}
+    \subitem {handle\+\_\+opt\+\_\+n}, \hyperpage{67}
+    \subitem {is\+\_\+arg\+\_\+option}, \hyperpage{67}
+
+  \indexspace
+
+  \item {parse\+\_\+command}
+    \subitem {parse\+\_\+command.\+c}, \hyperpage{82}
+  \item {parse\+\_\+command.\+c}
+    \subitem {add\+\_\+str\+\_\+to\+\_\+command}, \hyperpage{82}
+    \subitem {parse\+\_\+command}, \hyperpage{82}
+    \subitem {remove\+\_\+endline\+\_\+from\+\_\+command}, 
+		\hyperpage{83}
+  \item {print.\+c}
+    \subitem {error\+\_\+print}, \hyperpage{94}
+    \subitem {error\+\_\+print\+\_\+ptr}, \hyperpage{94}
+  \item {print\+\_\+teams}
+    \subitem {teams.\+c}, \hyperpage{70}
+  \item {ptr.\+c}
+    \subitem {error\+\_\+close\+\_\+ptr}, \hyperpage{94}
+    \subitem {error\+\_\+ptr}, \hyperpage{94}
+
+  \indexspace
+
+  \item {read\+\_\+from\+\_\+buffer}
+    \subitem {read\+\_\+from\+\_\+buffer.\+c}, \hyperpage{6}
+  \item {read\+\_\+from\+\_\+buffer.\+c}
+    \subitem {is\+\_\+buf\+\_\+readable}, \hyperpage{6}
+    \subitem {read\+\_\+from\+\_\+buffer}, \hyperpage{6}
+  \item {recv\+\_\+client\+\_\+info}
+    \subitem {recv\+\_\+client\+\_\+info.\+c}, \hyperpage{77}
+  \item {recv\+\_\+client\+\_\+info.\+c}
+    \subitem {recv\+\_\+client\+\_\+info}, \hyperpage{77}
+  \item {remove\+\_\+endline\+\_\+from\+\_\+command}
+    \subitem {parse\+\_\+command.\+c}, \hyperpage{83}
+  \item {remove\+\_\+player}
+    \subitem {game/player/delete.\+c}, \hyperpage{51}
+  \item {remove\+\_\+player.\+c}
+    \subitem {remove\+\_\+player\+\_\+from\+\_\+team}, \hyperpage{58}
+  \item {remove\+\_\+player\+\_\+from\+\_\+global\+\_\+player\+\_\+list}
+    \subitem {game/player/delete.\+c}, \hyperpage{52}
+  \item {remove\+\_\+player\+\_\+from\+\_\+team}
+    \subitem {remove\+\_\+player.\+c}, \hyperpage{58}
+  \item {remove\+\_\+player\+\_\+from\+\_\+tile}
+    \subitem {remove\+\_\+player\+\_\+from\+\_\+tile.\+c}, 
+		\hyperpage{43}
+  \item {remove\+\_\+player\+\_\+from\+\_\+tile.\+c}
+    \subitem {remove\+\_\+player\+\_\+from\+\_\+tile}, \hyperpage{43}
+  \item {remove\+\_\+resources\+\_\+from\+\_\+tile}
+    \subitem {remove\+\_\+resources\+\_\+from\+\_\+tile.\+c}, 
+		\hyperpage{44}
+  \item {remove\+\_\+resources\+\_\+from\+\_\+tile.\+c}
+    \subitem {remove\+\_\+resources\+\_\+from\+\_\+tile}, 
+		\hyperpage{44}
+  \item {reset\+\_\+buffer}
+    \subitem {buffer.\+c}, \hyperpage{92}
+  \item {reset\+\_\+client\+\_\+timer}
+    \subitem {reset\+\_\+client\+\_\+timer.\+c}, \hyperpage{77}
+  \item {reset\+\_\+client\+\_\+timer.\+c}
+    \subitem {reset\+\_\+client\+\_\+timer}, \hyperpage{77}
+  \item {respond\+\_\+to\+\_\+client}
+    \subitem {respond\+\_\+to\+\_\+client.\+c}, \hyperpage{85}
+  \item {respond\+\_\+to\+\_\+client.\+c}
+    \subitem {respond\+\_\+to\+\_\+client}, \hyperpage{85}
+  \item {ritual\+\_\+data}
+    \subitem {incantation.\+c}, \hyperpage{17}
+  \item {run\+\_\+zappy}
+    \subitem {run\+\_\+zappy.\+c}, \hyperpage{91}
+  \item {run\+\_\+zappy.\+c}
+    \subitem {run\+\_\+zappy}, \hyperpage{91}
+
+  \indexspace
+
+  \item {select\+\_\+server}
+    \subitem {select\+\_\+server.\+c}, \hyperpage{83}
+  \item {select\+\_\+server.\+c}
+    \subitem {select\+\_\+server}, \hyperpage{83}
+  \item {send\+\_\+info\+\_\+to\+\_\+graphical}
+    \subitem {send\+\_\+info\+\_\+to\+\_\+graphical.\+c}, 
+		\hyperpage{85}
+  \item {send\+\_\+info\+\_\+to\+\_\+graphical.\+c}
+    \subitem {send\+\_\+info\+\_\+to\+\_\+graphical}, \hyperpage{85}
+  \item {send\+\_\+init\+\_\+info\+\_\+to\+\_\+graph}
+    \subitem {send\+\_\+init\+\_\+info\+\_\+to\+\_\+graph.\+c}, 
+		\hyperpage{86}
+  \item {send\+\_\+init\+\_\+info\+\_\+to\+\_\+graph.\+c}
+    \subitem {send\+\_\+init\+\_\+info\+\_\+to\+\_\+graph}, 
+		\hyperpage{86}
+  \item {send\+\_\+ko\+\_\+to\+\_\+ritual\+\_\+players}
+    \subitem {incantation.\+c}, \hyperpage{16}
+  \item {send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players}
+    \subitem {set\+\_\+player\+\_\+command.\+c}, \hyperpage{60}
+  \item {server.\+c}
+    \subitem {debug\+\_\+no\+\_\+reuse}, \hyperpage{72}
+    \subitem {init\+\_\+select}, \hyperpage{72}
+    \subitem {init\+\_\+server}, \hyperpage{73}
+    \subitem {init\+\_\+sock\+\_\+address}, \hyperpage{73}
+  \item {server/circular\+\_\+buffer/add\+\_\+to\+\_\+buffer.\+c}, 
+		\hyperpage{3}
+  \item {server/circular\+\_\+buffer/has\+\_\+command.\+c}, 
+		\hyperpage{4}
+  \item {server/circular\+\_\+buffer/init\+\_\+buffer.\+c}, 
+		\hyperpage{5}
+  \item {server/circular\+\_\+buffer/read\+\_\+from\+\_\+buffer.\+c}, 
+		\hyperpage{6}
+  \item {server/clock/check\+\_\+for\+\_\+timeouts.\+c}, \hyperpage{7}
+  \item {server/clock/clock\+\_\+tick.\+c}, \hyperpage{7}
+  \item {server/game/commands/broadcast.\+c}, \hyperpage{9}
+  \item {server/game/commands/command\+\_\+list.\+c}, \hyperpage{12}
+  \item {server/game/commands/connect\+\_\+nbr.\+c}, \hyperpage{12}
+  \item {server/game/commands/eject.\+c}, \hyperpage{13}
+  \item {server/game/commands/fork.\+c}, \hyperpage{14}
+  \item {server/game/commands/incantation.\+c}, \hyperpage{15}
+  \item {server/game/commands/inventory.\+c}, \hyperpage{18}
+  \item {server/game/commands/look.\+c}, \hyperpage{18}
+  \item {server/game/commands/look\+\_\+tile.\+c}, \hyperpage{20}
+  \item {server/game/commands/move.\+c}, \hyperpage{21}
+  \item {server/game/commands/take\+\_\+set.\+c}, \hyperpage{23}
+  \item {server/game/inventory/check\+\_\+ritual\+\_\+resources.\+c}, 
+		\hyperpage{24}
+  \item {server/game/inventory/get\+\_\+resource.\+c}, \hyperpage{25}
+  \item {server/game/inventory/transfer\+\_\+item.\+c}, \hyperpage{26}
+  \item {server/game/log/hatch\+\_\+log.\+c}, \hyperpage{28}
+  \item {server/game/log/incantation\+\_\+log.\+c}, \hyperpage{28}
+  \item {server/game/log/kill\+\_\+log.\+c}, \hyperpage{29}
+  \item {server/game/log/move\+\_\+log.\+c}, \hyperpage{30}
+  \item {server/game/log/spawn\+\_\+log.\+c}, \hyperpage{31}
+  \item {server/game/log/take\+\_\+log.\+c}, \hyperpage{32}
+  \item {server/game/map/add\+\_\+player\+\_\+to\+\_\+tile.\+c}, 
+		\hyperpage{33}
+  \item {server/game/map/get\+\_\+dir.\+c}, \hyperpage{34}
+  \item {server/game/map/get\+\_\+nbr\+\_\+players.\+c}, \hyperpage{35}
+  \item {server/game/map/get\+\_\+player.\+c}, \hyperpage{38}
+  \item {server/game/map/get\+\_\+tile.\+c}, \hyperpage{39}
+  \item {server/game/map/move\+\_\+player\+\_\+to\+\_\+tile.\+c}, 
+		\hyperpage{41}
+  \item {server/game/map/remove\+\_\+player\+\_\+from\+\_\+tile.\+c}, 
+		\hyperpage{43}
+  \item {server/game/map/remove\+\_\+resources\+\_\+from\+\_\+tile.\+c}, 
+		\hyperpage{44}
+  \item {server/game/map/spawn\+\_\+food.\+c}, \hyperpage{44}
+  \item {server/game/player/add.\+c}, \hyperpage{46}
+  \item {server/game/player/append.\+c}, \hyperpage{48}
+  \item {server/game/player/check.\+c}, \hyperpage{49}
+  \item {server/game/player/delete.\+c}, \hyperpage{50}
+  \item {server/game/player/get.\+c}, \hyperpage{54}
+  \item {server/game/team/add\+\_\+player.\+c}, \hyperpage{56}
+  \item {server/game/team/get\+\_\+nbr\+\_\+players.\+c}, 
+		\hyperpage{36}
+  \item {server/game/team/get\+\_\+player.\+c}, \hyperpage{38}
+  \item {server/game/team/get\+\_\+team.\+c}, \hyperpage{57}
+  \item {server/game/team/remove\+\_\+player.\+c}, \hyperpage{57}
+  \item {server/game/update/check\+\_\+if\+\_\+game\+\_\+won.\+c}, 
+		\hyperpage{58}
+  \item {server/game/update/execute\+\_\+player\+\_\+commands.\+c}, 
+		\hyperpage{59}
+  \item {server/game/update/set\+\_\+player\+\_\+command.\+c}, 
+		\hyperpage{60}
+  \item {server/game/update/update\+\_\+game.\+c}, \hyperpage{62}
+  \item {server/get\+\_\+args/get\+\_\+args.\+c}, \hyperpage{63}
+  \item {server/get\+\_\+args/options\+\_\+func.\+c}, \hyperpage{65}
+  \item {server/get\+\_\+args/options\+\_\+names\+\_\+func.\+c}, 
+		\hyperpage{66}
+  \item {server/init/game/game.\+c}, \hyperpage{67}
+  \item {server/init/game/link\+\_\+tiles.\+c}, \hyperpage{68}
+  \item {server/init/game/teams.\+c}, \hyperpage{69}
+  \item {server/init/game/world.\+c}, \hyperpage{71}
+  \item {server/init/server.\+c}, \hyperpage{72}
+  \item {server/init/zappy.\+c}, \hyperpage{73}
+  \item {server/main.\+c}, \hyperpage{74}
+  \item {server/network/client/accept.\+c}, \hyperpage{75}
+  \item {server/network/client/add.\+c}, \hyperpage{48}
+  \item {server/network/client/create.\+c}, \hyperpage{76}
+  \item {server/network/client/delete.\+c}, \hyperpage{52}
+  \item {server/network/client/get.\+c}, \hyperpage{55}
+  \item {server/network/client/reset\+\_\+client\+\_\+timer.\+c}, 
+		\hyperpage{77}
+  \item {server/network/recv/recv\+\_\+client\+\_\+info.\+c}, 
+		\hyperpage{77}
+  \item {server/network/rfds/give\+\_\+player\+\_\+to\+\_\+client.\+c}, 
+		\hyperpage{78}
+  \item {server/network/rfds/handle\+\_\+client.\+c}, \hyperpage{79}
+  \item {server/network/rfds/manage\+\_\+rfds.\+c}, \hyperpage{81}
+  \item {server/network/rfds/parse\+\_\+command.\+c}, \hyperpage{82}
+  \item {server/network/select\+\_\+server.\+c}, \hyperpage{83}
+  \item {server/network/send/add\+\_\+to\+\_\+init\+\_\+graph\+\_\+response.\+c}, 
+		\hyperpage{84}
+  \item {server/network/send/respond\+\_\+to\+\_\+client.\+c}, 
+		\hyperpage{84}
+  \item {server/network/send/send\+\_\+info\+\_\+to\+\_\+graphical.\+c}, 
+		\hyperpage{85}
+  \item {server/network/send/send\+\_\+init\+\_\+info\+\_\+to\+\_\+graph.\+c}, 
+		\hyperpage{86}
+  \item {server/network/wfds/manage\+\_\+wfds.\+c}, \hyperpage{86}
+  \item {server/network/wfds/manage\+\_\+wfds\+\_\+ai.\+c}, 
+		\hyperpage{87}
+  \item {server/network/wfds/manage\+\_\+wfds\+\_\+graph.\+c}, 
+		\hyperpage{89}
+  \item {server/network/wfds/set\+\_\+wfds.\+c}, \hyperpage{89}
+  \item {server/run\+\_\+zappy.\+c}, \hyperpage{90}
+  \item {server/tools/array\+\_\+tools.\+c}, \hyperpage{91}
+  \item {server/tools/buffer.\+c}, \hyperpage{92}
+  \item {server/tools/error/int.\+c}, \hyperpage{93}
+  \item {server/tools/error/print.\+c}, \hyperpage{93}
+  \item {server/tools/error/ptr.\+c}, \hyperpage{94}
+  \item {server/tools/usage.\+c}, \hyperpage{95}
+  \item {set\+\_\+command}
+    \subitem {set\+\_\+player\+\_\+command.\+c}, \hyperpage{61}
+  \item {set\+\_\+incantation\+\_\+command}
+    \subitem {set\+\_\+player\+\_\+command.\+c}, \hyperpage{61}
+  \item {set\+\_\+player\+\_\+command}
+    \subitem {set\+\_\+player\+\_\+command.\+c}, \hyperpage{61}
+  \item {set\+\_\+player\+\_\+command.\+c}
+    \subitem {send\+\_\+ritual\+\_\+start\+\_\+msg\+\_\+to\+\_\+players}, 
+		\hyperpage{60}
+    \subitem {set\+\_\+command}, \hyperpage{61}
+    \subitem {set\+\_\+incantation\+\_\+command}, \hyperpage{61}
+    \subitem {set\+\_\+player\+\_\+command}, \hyperpage{61}
+  \item {set\+\_\+wfds}
+    \subitem {set\+\_\+wfds.\+c}, \hyperpage{90}
+  \item {set\+\_\+wfds.\+c}
+    \subitem {if\+\_\+not\+\_\+set\+\_\+wfds}, \hyperpage{90}
+    \subitem {if\+\_\+set\+\_\+wfds}, \hyperpage{90}
+    \subitem {set\+\_\+wfds}, \hyperpage{90}
+  \item {should\+\_\+game\+\_\+reset}
+    \subitem {update\+\_\+game.\+c}, \hyperpage{63}
+  \item {spawn\+\_\+food.\+c}
+    \subitem {init\+\_\+random\+\_\+pos}, \hyperpage{45}
+    \subitem {spawn\+\_\+resource}, \hyperpage{45}
+    \subitem {spawn\+\_\+resource\+\_\+at\+\_\+pos}, \hyperpage{45}
+  \item {spawn\+\_\+log.\+c}
+    \subitem {spawn\+\_\+player\+\_\+log}, \hyperpage{31}
+    \subitem {spawn\+\_\+resource\+\_\+log}, \hyperpage{32}
+  \item {spawn\+\_\+player\+\_\+log}
+    \subitem {spawn\+\_\+log.\+c}, \hyperpage{31}
+  \item {spawn\+\_\+resource}
+    \subitem {spawn\+\_\+food.\+c}, \hyperpage{45}
+  \item {spawn\+\_\+resource\+\_\+at\+\_\+pos}
+    \subitem {spawn\+\_\+food.\+c}, \hyperpage{45}
+  \item {spawn\+\_\+resource\+\_\+log}
+    \subitem {spawn\+\_\+log.\+c}, \hyperpage{32}
+  \item {strcmp\+\_\+until\+\_\+space}
+    \subitem {execute\+\_\+player\+\_\+commands.\+c}, \hyperpage{60}
+
+  \indexspace
+
+  \item {take\+\_\+log}
+    \subitem {take\+\_\+log.\+c}, \hyperpage{33}
+  \item {take\+\_\+log.\+c}
+    \subitem {take\+\_\+log}, \hyperpage{33}
+    \subitem {take\+\_\+log\+\_\+inventory}, \hyperpage{33}
+  \item {take\+\_\+log\+\_\+inventory}
+    \subitem {take\+\_\+log.\+c}, \hyperpage{33}
+  \item {take\+\_\+set.\+c}
+    \subitem {cmd\+\_\+set}, \hyperpage{23}
+    \subitem {cmd\+\_\+take}, \hyperpage{24}
+  \item {team/get\+\_\+nbr\+\_\+players.\+c}
+    \subitem {get\+\_\+team\+\_\+nbr\+\_\+players}, \hyperpage{37}
+    \subitem {get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+free}, 
+		\hyperpage{37}
+    \subitem {get\+\_\+team\+\_\+nbr\+\_\+players\+\_\+not\+\_\+free}, 
+		\hyperpage{37}
+  \item {team/get\+\_\+player.\+c}
+    \subitem {get\+\_\+last\+\_\+team\+\_\+player}, \hyperpage{39}
+  \item {teams.\+c}
+    \subitem {free\+\_\+team\+\_\+array}, \hyperpage{69}
+    \subitem {init\+\_\+team}, \hyperpage{70}
+    \subitem {init\+\_\+teams}, \hyperpage{70}
+    \subitem {print\+\_\+teams}, \hyperpage{70}
+  \item {transfer\+\_\+item}
+    \subitem {transfer\+\_\+item.\+c}, \hyperpage{27}
+  \item {transfer\+\_\+item.\+c}
+    \subitem {add\+\_\+resource\+\_\+to\+\_\+inventory}, \hyperpage{26}
+    \subitem {del\+\_\+resource\+\_\+from\+\_\+inventory}, 
+		\hyperpage{27}
+    \subitem {transfer\+\_\+item}, \hyperpage{27}
+
+  \indexspace
+
+  \item {update\+\_\+game}
+    \subitem {update\+\_\+game.\+c}, \hyperpage{63}
+  \item {update\+\_\+game.\+c}
+    \subitem {handle\+\_\+player\+\_\+command}, \hyperpage{62}
+    \subitem {handle\+\_\+players}, \hyperpage{62}
+    \subitem {should\+\_\+game\+\_\+reset}, \hyperpage{63}
+    \subitem {update\+\_\+game}, \hyperpage{63}
+  \item {upgrade\+\_\+ritual\+\_\+players}
+    \subitem {incantation.\+c}, \hyperpage{17}
+  \item {usage}
+    \subitem {usage.\+c}, \hyperpage{95}
+  \item {usage.\+c}
+    \subitem {usage}, \hyperpage{95}
+
+  \indexspace
+
+  \item {world.\+c}
+    \subitem {free\+\_\+map}, \hyperpage{71}
+    \subitem {init\+\_\+world}, \hyperpage{71}
+
+  \indexspace
+
+  \item {zappy}
+    \subitem {main.\+c}, \hyperpage{75}
+  \item {zappy.\+c}
+    \subitem {free\+\_\+zappy}, \hyperpage{74}
+    \subitem {init\+\_\+zappy}, \hyperpage{74}
+
+\end{theindex}

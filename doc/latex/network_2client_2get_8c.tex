@@ -1,0 +1,59 @@
+\hypertarget{network_2client_2get_8c}{}\section{server/network/client/get.c File Reference}
+\label{network_2client_2get_8c}\index{server/network/client/get.\+c@{server/network/client/get.\+c}}
+{\ttfamily \#include \char`\"{}network/client.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+client\+\_\+t $\ast$ \mbox{\hyperlink{network_2client_2get_8c_a783d7b001ae7470bd0100a938eb40f60}{get\+\_\+client\+\_\+by\+\_\+fd}} (client\+\_\+t $\ast$first, int fd)
+\begin{DoxyCompactList}\small\item\em Find a client corresponding to the given file descriptor in a given client linked list. \end{DoxyCompactList}\item 
+client\+\_\+t $\ast$ \mbox{\hyperlink{network_2client_2get_8c_a5297fd2f5529e7c4fc1052f4f57c4c38}{get\+\_\+last\+\_\+client}} (client\+\_\+t $\ast$first)
+\begin{DoxyCompactList}\small\item\em Find the last item in a given client linked list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{network_2client_2get_8c_a783d7b001ae7470bd0100a938eb40f60}\label{network_2client_2get_8c_a783d7b001ae7470bd0100a938eb40f60}} 
+\index{network/client/get.\+c@{network/client/get.\+c}!get\+\_\+client\+\_\+by\+\_\+fd@{get\+\_\+client\+\_\+by\+\_\+fd}}
+\index{get\+\_\+client\+\_\+by\+\_\+fd@{get\+\_\+client\+\_\+by\+\_\+fd}!network/client/get.\+c@{network/client/get.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+client\+\_\+by\+\_\+fd()}{get\_client\_by\_fd()}}
+{\footnotesize\ttfamily client\+\_\+t$\ast$ get\+\_\+client\+\_\+by\+\_\+fd (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$}]{first,  }\item[{int}]{fd }\end{DoxyParamCaption})}
+
+
+
+Find a client corresponding to the given file descriptor in a given client linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \\
+\hline
+{\em fd} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the found client 
+\end{DoxyReturn}
+
+
+Definition at line 15 of file get.\+c.
+
+\mbox{\Hypertarget{network_2client_2get_8c_a5297fd2f5529e7c4fc1052f4f57c4c38}\label{network_2client_2get_8c_a5297fd2f5529e7c4fc1052f4f57c4c38}} 
+\index{network/client/get.\+c@{network/client/get.\+c}!get\+\_\+last\+\_\+client@{get\+\_\+last\+\_\+client}}
+\index{get\+\_\+last\+\_\+client@{get\+\_\+last\+\_\+client}!network/client/get.\+c@{network/client/get.\+c}}
+\subsubsection{\texorpdfstring{get\+\_\+last\+\_\+client()}{get\_last\_client()}}
+{\footnotesize\ttfamily client\+\_\+t$\ast$ get\+\_\+last\+\_\+client (\begin{DoxyParamCaption}\item[{client\+\_\+t $\ast$}]{first }\end{DoxyParamCaption})}
+
+
+
+Find the last item in a given client linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the last client, N\+U\+LL in case of error 
+\end{DoxyReturn}
+
+
+Definition at line 25 of file get.\+c.
+

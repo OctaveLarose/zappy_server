@@ -1,0 +1,75 @@
+\hypertarget{look__tile_8c}{}\section{server/game/commands/look\+\_\+tile.c File Reference}
+\label{look__tile_8c}\index{server/game/commands/look\+\_\+tile.\+c@{server/game/commands/look\+\_\+tile.\+c}}
+{\ttfamily \#include \char`\"{}macros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/commands.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}errors.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{look__tile_8c_ae92f129844a850388970e61b0dde79b3}{look\+\_\+print}} (buffer\+\_\+t $\ast$buffer, uint16\+\_\+t content, char $\ast$name)
+\item 
+int \mbox{\hyperlink{look__tile_8c_a5871b5025e671e41a28e10efc1204d7a}{look\+\_\+print\+\_\+player}} (buffer\+\_\+t $\ast$buffer, tile\+\_\+t $\ast$tile)
+\begin{DoxyCompactList}\small\item\em Fill the buffer with the corresponding number of \char`\"{} players\char`\"{} string. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{look__tile_8c_ac5aecb7f8962e6756a942964e14eaeba}{look\+\_\+tile}} (buffer\+\_\+t $\ast$buffer, tile\+\_\+t $\ast$tile)
+\begin{DoxyCompactList}\small\item\em Fill the buffer with the content of the given tile. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{look__tile_8c_ae92f129844a850388970e61b0dde79b3}\label{look__tile_8c_ae92f129844a850388970e61b0dde79b3}} 
+\index{look\+\_\+tile.\+c@{look\+\_\+tile.\+c}!look\+\_\+print@{look\+\_\+print}}
+\index{look\+\_\+print@{look\+\_\+print}!look\+\_\+tile.\+c@{look\+\_\+tile.\+c}}
+\subsubsection{\texorpdfstring{look\+\_\+print()}{look\_print()}}
+{\footnotesize\ttfamily int look\+\_\+print (\begin{DoxyParamCaption}\item[{buffer\+\_\+t $\ast$}]{buffer,  }\item[{uint16\+\_\+t}]{content,  }\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 12 of file look\+\_\+tile.\+c.
+
+\mbox{\Hypertarget{look__tile_8c_a5871b5025e671e41a28e10efc1204d7a}\label{look__tile_8c_a5871b5025e671e41a28e10efc1204d7a}} 
+\index{look\+\_\+tile.\+c@{look\+\_\+tile.\+c}!look\+\_\+print\+\_\+player@{look\+\_\+print\+\_\+player}}
+\index{look\+\_\+print\+\_\+player@{look\+\_\+print\+\_\+player}!look\+\_\+tile.\+c@{look\+\_\+tile.\+c}}
+\subsubsection{\texorpdfstring{look\+\_\+print\+\_\+player()}{look\_print\_player()}}
+{\footnotesize\ttfamily int look\+\_\+print\+\_\+player (\begin{DoxyParamCaption}\item[{buffer\+\_\+t $\ast$}]{buffer,  }\item[{tile\+\_\+t $\ast$}]{tile }\end{DoxyParamCaption})}
+
+
+
+Fill the buffer with the corresponding number of \char`\"{} players\char`\"{} string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffer} & \\
+\hline
+{\em tile} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 30 of file look\+\_\+tile.\+c.
+
+\mbox{\Hypertarget{look__tile_8c_ac5aecb7f8962e6756a942964e14eaeba}\label{look__tile_8c_ac5aecb7f8962e6756a942964e14eaeba}} 
+\index{look\+\_\+tile.\+c@{look\+\_\+tile.\+c}!look\+\_\+tile@{look\+\_\+tile}}
+\index{look\+\_\+tile@{look\+\_\+tile}!look\+\_\+tile.\+c@{look\+\_\+tile.\+c}}
+\subsubsection{\texorpdfstring{look\+\_\+tile()}{look\_tile()}}
+{\footnotesize\ttfamily int look\+\_\+tile (\begin{DoxyParamCaption}\item[{buffer\+\_\+t $\ast$}]{buffer,  }\item[{tile\+\_\+t $\ast$}]{tile }\end{DoxyParamCaption})}
+
+
+
+Fill the buffer with the content of the given tile. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffer} & \\
+\hline
+{\em tile} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 50 of file look\+\_\+tile.\+c.
+

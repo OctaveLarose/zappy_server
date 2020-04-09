@@ -1,0 +1,56 @@
+\hypertarget{buffer_8c}{}\section{server/tools/buffer.c File Reference}
+\label{buffer_8c}\index{server/tools/buffer.\+c@{server/tools/buffer.\+c}}
+{\ttfamily \#include \char`\"{}zappy.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{buffer_8c_a80ccdad71496a89b7de9cd5e72623c37}{reset\+\_\+buffer}} (buffer\+\_\+t $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em Remove all data from a buffer. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{buffer_8c_afb0061da1cea40ff3b2d6bce1f86a1c6}{add\+\_\+str\+\_\+to\+\_\+buffer}} (char $\ast$str, buffer\+\_\+t $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em Append data into a buffer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{buffer_8c_afb0061da1cea40ff3b2d6bce1f86a1c6}\label{buffer_8c_afb0061da1cea40ff3b2d6bce1f86a1c6}} 
+\index{buffer.\+c@{buffer.\+c}!add\+\_\+str\+\_\+to\+\_\+buffer@{add\+\_\+str\+\_\+to\+\_\+buffer}}
+\index{add\+\_\+str\+\_\+to\+\_\+buffer@{add\+\_\+str\+\_\+to\+\_\+buffer}!buffer.\+c@{buffer.\+c}}
+\subsubsection{\texorpdfstring{add\+\_\+str\+\_\+to\+\_\+buffer()}{add\_str\_to\_buffer()}}
+{\footnotesize\ttfamily bool add\+\_\+str\+\_\+to\+\_\+buffer (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{buffer\+\_\+t $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+
+
+Append data into a buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+{\em buffer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true on success 
+\end{DoxyReturn}
+
+
+Definition at line 22 of file buffer.\+c.
+
+\mbox{\Hypertarget{buffer_8c_a80ccdad71496a89b7de9cd5e72623c37}\label{buffer_8c_a80ccdad71496a89b7de9cd5e72623c37}} 
+\index{buffer.\+c@{buffer.\+c}!reset\+\_\+buffer@{reset\+\_\+buffer}}
+\index{reset\+\_\+buffer@{reset\+\_\+buffer}!buffer.\+c@{buffer.\+c}}
+\subsubsection{\texorpdfstring{reset\+\_\+buffer()}{reset\_buffer()}}
+{\footnotesize\ttfamily void reset\+\_\+buffer (\begin{DoxyParamCaption}\item[{buffer\+\_\+t $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+
+
+Remove all data from a buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffer} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 12 of file buffer.\+c.
+
