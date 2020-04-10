@@ -6,10 +6,9 @@ to this server, sometimes hundreds at a time, and they fought for resources on a
 Their goal was to acquire enough to evolve repeatedly, winning the game when enough members of their team had
 reached their maximum level.
 
-I've written 4913 lines of code for this project over the course of two months 
-(3785 for the server itself and 1128 for the unit tests)
-and I had to make sure it was extremely robust and fast to handle several hundreds of connections at once,
-hence the great number of tests I've written. I've implemented all the networking, but also all of the
+I've written 3312 lines of code for this project over the course of two months 
+(2421 for the server itself and 891 for the unit tests)
+and I had to make sure it was extremely robust, stable and fast to handle several hundreds of connections at once; hence the great number of tests I've written. I've implemented all the networking, but also all of the
 game logic.
  
 It also should not have any memory leaks (famous last words, though) and should completely comply to
